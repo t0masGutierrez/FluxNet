@@ -1,6 +1,6 @@
 # FluxNet
 
-FluxNet uses examples of the state at different time steps on a periodic grid of one-dimensional cells to predict the next
+FluxNet uses examples of the state at different time steps on a one-dimensional periodic grid of cells to predict the next
 values. It moves an amount from one cell to the next, so the total amount in
 all cells stays the same apart from small computer rounding errors.
 
@@ -21,7 +21,7 @@ python -m pip install -e .
 Some computers need a different PyTorch installation. If the standard install
 does not work, install the PyTorch version for your computer first.
 
-## Run the fixed FluxNet check
+## Check
 
 From the repository root:
 
@@ -48,7 +48,7 @@ The new forecast is written to
 `fluxnet-repro/example/reproduced-forecast-example.npz`. Git ignores this
 file because the test can create it again.
 
-## Run the ICON comparison
+## Compare
 
 Install the extra packages needed for the ICON test:
 
@@ -66,7 +66,7 @@ Use `--seed 0`, `--seed 1`, or `--seed 2` to run one saved model. The ICON
 test checks each model file, loads the fixed ICON code and settings, makes the
 same 20 predictions, and compares them with the saved answer for that run.
 
-## Repository layout
+## Layout
 
 - `src/` — the six code files that run FluxNet.
 - `fluxnet-repro/` — the saved FluxNet model, reference data, saved answer,
