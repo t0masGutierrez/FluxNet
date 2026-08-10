@@ -1,0 +1,23 @@
+{
+  "schema_version": "icon-repro-source-identity-v1",
+  "source_commit": "f8404c0edca7cca7f767c3562ade51d66b222d5d",
+  "source_origin": "docs/reference/icon-tutorial",
+  "license": "LICENSE",
+  "runtime_files": [
+    "src/__init__.py",
+    "src/data_utils.py",
+    "src/model_iconlm.py",
+    "src/models_tran.py",
+    "src/models_utils.py",
+    "src/utils.py"
+  ],
+  "omitted_from_snapshot": [
+    "configs",
+    "scripts",
+    "scratch",
+    "tutorial-jax",
+    "notebooks",
+    "plots",
+    ".git"
+  ]
+}

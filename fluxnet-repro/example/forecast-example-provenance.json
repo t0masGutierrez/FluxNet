@@ -1,0 +1,135 @@
+{
+  "arrays": {
+    "absolute_error": {
+      "dtype": "float32",
+      "shape": [
+        20,
+        100
+      ]
+    },
+    "prediction": {
+      "dtype": "float32",
+      "shape": [
+        20,
+        100
+      ]
+    },
+    "reference": {
+      "dtype": "float32",
+      "shape": [
+        20,
+        100
+      ]
+    },
+    "time": {
+      "dtype": "float64",
+      "shape": [
+        20
+      ]
+    },
+    "x": {
+      "dtype": "float64",
+      "shape": [
+        100
+      ]
+    }
+  },
+  "artifacts": {
+    "forecast_example": {
+      "filename": "forecast-example.npz",
+      "sha256": "dc1eca53afba81c85fb43d6b9485e65173933e53694dd35050ca3153389dc95e",
+      "size": 21081
+    }
+  },
+  "checkpoint_update": 37500,
+  "claim_boundary": "one_seed_post_unseal_development_comparison",
+  "command": "/work/11653/teg883/vista/dg-fluxnet-poster-example-source-20260731-v1/extract_fluxnet_poster_example.py --checkpoint-lock /work/11653/teg883/vista/dg-fluxnet-friday-icon-evaluation-run-20260731-v4/selected-checkpoint-lock.json --expected-checkpoint-lock-sha256 a07963c7e09e6aefb525b24deea3d539a669ca2e1d2f8e4b9924c8e1d18de7ad --expected-checkpoint-sha256 58cc13c189c27b37bc56551a08797335e4b71d07e5fed85bd6f5778ef26cf2f6 --expected-update 37500 --resolved-config /work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/.hydra/config.yaml --expected-resolved-config-sha256 02e23e128f31dee5c45b08c4b5de48b8f1eef8ecc76bee4be4d984f3a0c28b4f --evaluation-source-manifest /work/11653/teg883/vista/dg-fluxnet-friday-evaluation-source-20260730-v4/SOURCE_MANIFEST.sha256 --expected-evaluation-source-manifest-sha256 b1bc06ca8137a0a9d53a2e9e77dacac43190c916f015001bf570387ea1ab39c5 --suite-manifest /work/11653/teg883/vista/phase6-icon-model-v1/fair_benchmark/focused_seal_v4/sealed_selection/suite.json --expected-suite-file-sha256 90d2a42de39cd6f599396380c23c2123be2a73980d74ace369acf295d3499ffc --expected-suite-semantic-sha256 7a04b0f5db4edd61e168a9ef27122c3b697700553f77602a9500f392e9879743 --truth-root /work/11653/teg883/vista/phase6-icon-model-v1/fair_benchmark/focused_seal_v4/truth --truth-audit /work/11653/teg883/vista/phase6-icon-model-v1/fair_benchmark/focused_seal_v4/advisor_note_v1/control-v3/truth_audit.json --expected-truth-audit-sha256 cf78b5f94fdea0343d899ca6c36470df0c5042da1ac181ae1ae5955ab67534dc --output-root /work/11653/teg883/vista/dg-fluxnet-poster-example-run-20260731-v1/output --device cuda",
+  "fixed_example": {
+    "dataset_indices": [
+      176,
+      192
+    ],
+    "evaluation_task_index": 0,
+    "flux_family": "chebyshev_degree_4_7",
+    "ic_family": "grf",
+    "selected_local_row": 4,
+    "selection_rule": "smallest trajectory identity SHA-256 before model inference",
+    "trajectory_id": "/work/11653/teg883/vista/phase6-icon-model-v1/fair_benchmark/focused_seal_v4/truth/task-011-chebyshev_degree_4_7-grf/saved.h5:3",
+    "trajectory_id_sha256": "027e8c47033ce396d2bc43d0b48eaf48da967745e19126b6d27742f1bc2c2650",
+    "trajectory_key": [
+      3
+    ],
+    "truth_shard_task_index": 11,
+    "window_start": 0
+  },
+  "inputs": {
+    "checkpoint": {
+      "path": "/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_37500.ckpt",
+      "sha256": "58cc13c189c27b37bc56551a08797335e4b71d07e5fed85bd6f5778ef26cf2f6",
+      "size": 27868341
+    },
+    "checkpoint_lock": {
+      "path": "/work/11653/teg883/vista/dg-fluxnet-friday-icon-evaluation-run-20260731-v4/selected-checkpoint-lock.json",
+      "sha256": "a07963c7e09e6aefb525b24deea3d539a669ca2e1d2f8e4b9924c8e1d18de7ad",
+      "size": 89162
+    },
+    "evaluation_source_manifest": {
+      "path": "/work/11653/teg883/vista/dg-fluxnet-friday-evaluation-source-20260730-v4/SOURCE_MANIFEST.sha256",
+      "sha256": "b1bc06ca8137a0a9d53a2e9e77dacac43190c916f015001bf570387ea1ab39c5",
+      "size": 45395
+    },
+    "fixed_truth_shard": {
+      "flux_family": "chebyshev_degree_4_7",
+      "flux_identity_sha256": "e3e4963290b14651d215254a6424ca0b509d3cae76d927178c5eeffee254c995",
+      "ic_family": "grf",
+      "ic_seeds": [
+        41176,
+        41177,
+        41178,
+        41179,
+        41180,
+        41181,
+        41182,
+        41183,
+        41184,
+        41185,
+        41186,
+        41187,
+        41188,
+        41189,
+        41190,
+        41191
+      ],
+      "manifest_sha256": "e74968a0a8f6fd089c005578a6d6feb63533bfb0f26199b9b0d84507b6afd429",
+      "manifest_size": 4202,
+      "relative_directory": "task-011-chebyshev_degree_4_7-grf",
+      "saved_h5_sha256": "ec748e22825ff42b89f839dbf94b252aca1a62ec122a8d93c52d9a377b7386c5",
+      "saved_h5_size": 1072290,
+      "saved_values_sha256": "7b636d75a612c123f154231babce40419b9479b7f9671e253cfc05336314cc91",
+      "shard_task_index": 11
+    },
+    "resolved_config": {
+      "path": "/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/.hydra/config.yaml",
+      "sha256": "02e23e128f31dee5c45b08c4b5de48b8f1eef8ecc76bee4be4d984f3a0c28b4f",
+      "size": 4071
+    },
+    "suite_manifest": {
+      "path": "/work/11653/teg883/vista/phase6-icon-model-v1/fair_benchmark/focused_seal_v4/sealed_selection/suite.json",
+      "sha256": "90d2a42de39cd6f599396380c23c2123be2a73980d74ace369acf295d3499ffc",
+      "size": 5130
+    },
+    "suite_semantic_sha256": "7a04b0f5db4edd61e168a9ef27122c3b697700553f77602a9500f392e9879743",
+    "truth_audit": {
+      "path": "/work/11653/teg883/vista/phase6-icon-model-v1/fair_benchmark/focused_seal_v4/advisor_note_v1/control-v3/truth_audit.json",
+      "sha256": "cf78b5f94fdea0343d899ca6c36470df0c5042da1ac181ae1ae5955ab67534dc",
+      "size": 441
+    },
+    "truth_global_shards_sha256": "eb40fa9aeabc79f3d11328cc4331037e03232df9c56888de730dcbe90d5e398c",
+    "truth_task_shards_sha256": "4e2ccb74f84291951202014920b5d12e2ccd8c7ccb1ea9dae1713ea8558a53b9"
+  },
+  "internal_model_id": "dg_fluxnet_joint",
+  "protocol_id": "primary_20",
+  "public_model_name": "FluxNet",
+  "schema_version": "fluxnet-poster-example-v1",
+  "training_seed": 1307
+}

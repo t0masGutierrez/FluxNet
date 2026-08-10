@@ -1,0 +1,140 @@
+data:
+  train_cache_path: /work/11653/teg883/vista/dg-fluxnet-v2-combined-train-cache-20260726-v1/output/combined-collections/train/sha256-ef27460481bdb3dee0bd2c9e2d887693db5300f66ae4d23f2d9b8cb881b80129
+  validation_cache_path: /work/11653/teg883/vista/dg-fluxnet-v2-combined-validation-cache-20260726-v1/output/combined-collections/validation/sha256-68c63a3afd15e4dc1369a6741b2d905b6ce92af8cbdc0c8b9e3d3317bfadfa1f
+  training_start_update: 5000
+  training_end_update: 40000
+  batch_size_per_device: 8
+  validation_batch_size_per_device: 8
+  num_workers: 0
+  resume_safe_stream: true
+model:
+  _target_: src.models.flux_context_icon.dg_fluxnet_joint_direct_candidate.DGFluxNetJointDirectCandidate
+  dt_over_dx: 0.5
+  fit_degree: 3
+  speed_bound: 20.0
+  normalization_epsilon: 1.0e-05
+  evidence_ridge: 0.0001
+  output_scaling: none
+  dilations:
+  - 1
+  - 2
+  - 4
+  - 8
+  width: 168
+plmodule:
+  _target_: src.plmodules.dg_fluxnet_joint_direct_candidate_lit_module.DGFluxNetJointDirectCandidateLitModule
+  _partial_: true
+datamodule:
+  _target_: src.datamodules.dg_fluxnet_grouped_teacher_datamodule.DGFluxNetGroupedTeacherDataModule
+  _partial_: true
+opt:
+  optimizer:
+    _target_: torch.optim.AdamW
+    _partial_: true
+    lr: 0.0001
+  scheduler:
+    _target_: src.opt.schedulers.warmup_cosine_decay_scheduler.PercentageWarmupCosineDecayScheduler
+    _partial_: true
+    max_iters: ${trainer.max_steps}
+    warmup_percent: 10
+    decay_percent: 100
+    end_lr_factor: 0.1
+  gnorm_clip: 1.0
+accelerate:
+  fp32_matmul_precision: highest
+  dynamo_cache_size_limit: null
+  compile: false
+  precision: '32'
+  sdpa:
+  - efficient
+  - flash
+  - math
+callbacks:
+  save_ckpt:
+    _target_: lightning.pytorch.callbacks.ModelCheckpoint
+    dirpath: ${paths.output_dir}/checkpoints
+    filename: step_{step}
+    monitor: null
+    verbose: true
+    save_last: link
+    save_top_k: -1
+    mode: min
+    auto_insert_metric_name: false
+    save_weights_only: false
+    every_n_train_steps: 2500
+    train_time_interval: null
+    every_n_epochs: null
+    save_on_train_epoch_end: null
+logger:
+  csv:
+    _target_: lightning.pytorch.loggers.csv_logs.CSVLogger
+    save_dir: ${paths.output_dir}
+    name: csv/
+    prefix: ''
+trainer:
+  _target_: lightning.pytorch.trainer.Trainer
+  default_root_dir: ${paths.output_dir}
+  min_steps: 1
+  min_epochs: 0
+  max_steps: 40000
+  max_epochs: -1
+  accelerator: gpu
+  devices: 1
+  precision: ${accelerate.precision}
+  deterministic: false
+  val_check_interval: 40000
+  check_val_every_n_epoch: null
+  limit_val_batches: 0
+  gradient_clip_val: ${opt.gnorm_clip}
+  profiler: simple
+  num_sanity_val_steps: 0
+  enable_progress_bar: false
+paths:
+  root_dir: ${oc.env:PROJECT_ROOT}
+  data_dir: ${paths.root_dir}/data/
+  log_dir: ${paths.root_dir}/logs/
+  output_dir: /work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539
+  work_dir: ${hydra:runtime.cwd}
+  restore_ckpts:
+  - /work/11653/teg883/vista/dg-fluxnet-continuation-5000-run-20260729-v2/job-874128/checkpoints/step_5000.ckpt
+  restore_dir: null
+extras:
+  rich_console_width: 200
+  ignore_warnings: false
+  enforce_tags: true
+  print_config: true
+task_name: train_dg_fluxnet_joint_direct_candidate
+tags:
+- dg_fluxnet
+- direct
+- joint
+- grouped_rollout
+- hfluxno
+- solver_free
+train: true
+test: false
+seed: 1307
+print_lv: 1
+log_project: dg_fluxnet_joint_candidate
+teacher:
+  config_path: /work/11653/teg883/vista/dg-fluxnet-bounded-existing-20260725-v1/inputs/dg_fluxnet_controlled/fluxnet_prompt_fit_local_eval_v1.yaml
+  config_sha256: 92f4e7f72480674c5c9b6af72cb97a68e78e37930eca7dd4ae40e5b3046f093f
+  checkpoint_path: /work/11653/teg883/vista/dg-fluxnet-bounded-existing-20260725-v1/inputs/dg_fluxnet_controlled/fluxnet_step_1000000.pt
+  checkpoint_sha256: 6534a86a26049a4889f02732df15e84daed301d021e52ca959c0d22abd2972c0
+joint_loss:
+  state_l2: 1.0
+  cvar: 0.1
+  linf: 0.05
+  symmetric_variation: 0.02
+  multiscale_gradient: 0.05
+  paired_stability: 0.01
+joint_training:
+  speed_edges:
+  - 4.0
+  - 8.0
+  - 12.0
+  - 16.0
+  difficulty_edges:
+  - 0.25
+  - 0.5
+  - 1.0

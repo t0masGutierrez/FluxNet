@@ -1,0 +1,2305 @@
+{
+  "baseline_update": 5000,
+  "candidate_only": true,
+  "checkpoint_inventory_verification": {
+    "checkpoints": [
+      {
+        "path": "/work/11653/teg883/vista/dg-fluxnet-continuation-5000-run-20260729-v2/job-874128/checkpoints/step_5000.ckpt",
+        "sha256": "08e2b83bfd23ec2087d734937b8796c34cfb55427ecc1519e7e2d25d3e093c55",
+        "size": 27868277,
+        "update": 5000
+      },
+      {
+        "path": "/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_7500.ckpt",
+        "sha256": "e4822351e5637a9384d6a819d53cdb558cb37def45e07b6136a78ac393f7e7a8",
+        "size": 27868213,
+        "update": 7500
+      },
+      {
+        "path": "/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_10000.ckpt",
+        "sha256": "46178c62d2708dcbf6fab2a0b687def5a2e63fa4adf0ffa29e09ec068abef9c1",
+        "size": 27868341,
+        "update": 10000
+      },
+      {
+        "path": "/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_12500.ckpt",
+        "sha256": "f0d8c38208d73506d9af3bf827d5701042af1d5dc5fa510ba68a93baefe4a457",
+        "size": 27868341,
+        "update": 12500
+      },
+      {
+        "path": "/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_15000.ckpt",
+        "sha256": "ab6979a2b706c99d4b01310cd09ca5a6f7e9831e2d5afd9f3c8a8a5b2c317dc5",
+        "size": 27868341,
+        "update": 15000
+      },
+      {
+        "path": "/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_17500.ckpt",
+        "sha256": "559fcece0faca1b83f470ed8634b95e3c5bc1ccc968de9aa100d9f0e66de9a25",
+        "size": 27868341,
+        "update": 17500
+      },
+      {
+        "path": "/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_20000.ckpt",
+        "sha256": "da1ab8d83278e265745d5dc8907171f5a4dc50e38d2c3f61f19ebc7bef8fe997",
+        "size": 27868341,
+        "update": 20000
+      },
+      {
+        "path": "/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_22500.ckpt",
+        "sha256": "ddd550fa09f3dd888362e4f745344c5cdc5714b9a1ba2dc6e0a4116f52e8836d",
+        "size": 27868341,
+        "update": 22500
+      },
+      {
+        "path": "/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_25000.ckpt",
+        "sha256": "045e7130fff9ed9588f45f37a4107ab147378c52dab516bb9a1a0a2893d903e5",
+        "size": 27868341,
+        "update": 25000
+      },
+      {
+        "path": "/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_27500.ckpt",
+        "sha256": "92a6b24859f877307e054fe8702f4e028d44f49c90b15fce1722e1ed986d09fe",
+        "size": 27868341,
+        "update": 27500
+      },
+      {
+        "path": "/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_30000.ckpt",
+        "sha256": "6433f7ccbd98956794784c970c9659ab1c9c361f415cce05fabc9c0d000c0a62",
+        "size": 27868341,
+        "update": 30000
+      },
+      {
+        "path": "/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_32500.ckpt",
+        "sha256": "0abf393dd8ccfa1b760b8d408dba967043cd123ae207374cf9ddab7433d51df5",
+        "size": 27868341,
+        "update": 32500
+      },
+      {
+        "path": "/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_35000.ckpt",
+        "sha256": "6032e58e6c1810af46dfc97adefd47202eb3cced19a25a1fdaa47891b68ab576",
+        "size": 27868341,
+        "update": 35000
+      },
+      {
+        "path": "/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_37500.ckpt",
+        "sha256": "58cc13c189c27b37bc56551a08797335e4b71d07e5fed85bd6f5778ef26cf2f6",
+        "size": 27868341,
+        "update": 37500
+      },
+      {
+        "path": "/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_40000.ckpt",
+        "sha256": "2710bd459a6bcfe86d5cfaad4de19b9bccc28081e46fc7a4f38f03b8913fe7d7",
+        "size": 27868341,
+        "update": 40000
+      }
+    ],
+    "expected_updates": [
+      5000,
+      7500,
+      10000,
+      12500,
+      15000,
+      17500,
+      20000,
+      22500,
+      25000,
+      27500,
+      30000,
+      32500,
+      35000,
+      37500,
+      40000
+    ],
+    "inventory_schema": "dg_fluxnet_cutoff_milestone_discovery_v1",
+    "latest_verified_update": 40000,
+    "passed": true,
+    "scheduler_status": {
+      "evidence": {
+        "sacct": {
+          "path": "/work/11653/teg883/vista/dg-fluxnet-friday-icon-evaluation-run-20260731-v4/scheduler/early-sacct.txt",
+          "sha256": "235087b58f15458b5d4ebb46be4b068c2a8571f17f1bd23d4c9833381857e559",
+          "size": 139
+        },
+        "scontrol": {
+          "path": "/work/11653/teg883/vista/dg-fluxnet-friday-icon-evaluation-run-20260731-v4/scheduler/early-scontrol.txt",
+          "sha256": "e7cbc19b304ce7fb323ea1ccae489c74fbc1bdf5635781d0999740708566b8df",
+          "size": 48
+        },
+        "squeue": {
+          "path": "/work/11653/teg883/vista/dg-fluxnet-friday-icon-evaluation-run-20260731-v4/scheduler/early-squeue.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        }
+      },
+      "kind": "cutoff_or_early_finalize",
+      "mode": "early-finalize",
+      "passed": true,
+      "terminal_scheduler_state": "COMPLETED"
+    },
+    "schema": "dg_fluxnet_checkpoint_inventory_verification_v1"
+  },
+  "checkpoint_reports": [
+    {
+      "path": "/work/11653/teg883/vista/dg-fluxnet-friday-icon-evaluation-run-20260731-v4/milestone-selection/milestone-step-5000.json",
+      "sha256": "a4faa8fa9b766bdb44bf2b968ec8d97091e6d3a07c5f41cad53da6a0e6d2555a",
+      "size": 4312
+    },
+    {
+      "path": "/work/11653/teg883/vista/dg-fluxnet-friday-icon-evaluation-run-20260731-v4/milestone-selection/milestone-step-7500.json",
+      "sha256": "5bc7090b4806b15e997cce6060a37b7c305e528737170ae6f495737263d31e4d",
+      "size": 4310
+    },
+    {
+      "path": "/work/11653/teg883/vista/dg-fluxnet-friday-icon-evaluation-run-20260731-v4/milestone-selection/milestone-step-10000.json",
+      "sha256": "b62269aaa087242fb5ecee10e054f61b1d47ed389b99727cb7942d95110c6158",
+      "size": 4321
+    },
+    {
+      "path": "/work/11653/teg883/vista/dg-fluxnet-friday-icon-evaluation-run-20260731-v4/milestone-selection/milestone-step-12500.json",
+      "sha256": "837c2ea05df8635dfe6a123a0414d115589c1b8edcb6d711a2513b2154b1b89f",
+      "size": 4321
+    },
+    {
+      "path": "/work/11653/teg883/vista/dg-fluxnet-friday-icon-evaluation-run-20260731-v4/milestone-selection/milestone-step-15000.json",
+      "sha256": "24dc98737c2e8aa9dd53dc62018a0d75bed239f7ad5826d46c2d752664cb7430",
+      "size": 4318
+    },
+    {
+      "path": "/work/11653/teg883/vista/dg-fluxnet-friday-icon-evaluation-run-20260731-v4/milestone-selection/milestone-step-17500.json",
+      "sha256": "f8b4e592f61132b2c743d0e328d11b4cd349668fbfd9def3518853b7fa76ebad",
+      "size": 4323
+    },
+    {
+      "path": "/work/11653/teg883/vista/dg-fluxnet-friday-icon-evaluation-run-20260731-v4/milestone-selection/milestone-step-20000.json",
+      "sha256": "7752703c3dfe58e348cc240d133563126be51c9cbb0f3df8207b9eedf3941f8a",
+      "size": 4320
+    },
+    {
+      "path": "/work/11653/teg883/vista/dg-fluxnet-friday-icon-evaluation-run-20260731-v4/milestone-selection/milestone-step-22500.json",
+      "sha256": "3bec6b0cf17a37776c698c27ec105abe321f355e5dd20fd8c40c7f34920e27e2",
+      "size": 4325
+    },
+    {
+      "path": "/work/11653/teg883/vista/dg-fluxnet-friday-icon-evaluation-run-20260731-v4/milestone-selection/milestone-step-25000.json",
+      "sha256": "d3a48e78457869b7226062946eb058fce8f1b5397e9ed99a3c4bff3f6f18c7d3",
+      "size": 4322
+    },
+    {
+      "path": "/work/11653/teg883/vista/dg-fluxnet-friday-icon-evaluation-run-20260731-v4/milestone-selection/milestone-step-27500.json",
+      "sha256": "a8c1454b9810d7016f8b87a44c706ff267f803f33d87e9dec98d515a29982982",
+      "size": 4326
+    },
+    {
+      "path": "/work/11653/teg883/vista/dg-fluxnet-friday-icon-evaluation-run-20260731-v4/milestone-selection/milestone-step-30000.json",
+      "sha256": "415df81ac98a6d651f5ed78ea5209862b467d4cd19133b509cfd60f3d429d00c",
+      "size": 4322
+    },
+    {
+      "path": "/work/11653/teg883/vista/dg-fluxnet-friday-icon-evaluation-run-20260731-v4/milestone-selection/milestone-step-32500.json",
+      "sha256": "f975ee8bab960447c2e15ee298beee7448b7cfcb0011d06c80b742c5a688608f",
+      "size": 4326
+    },
+    {
+      "path": "/work/11653/teg883/vista/dg-fluxnet-friday-icon-evaluation-run-20260731-v4/milestone-selection/milestone-step-35000.json",
+      "sha256": "114b10b53cad46f227200f68e4e16126e9e25b87def2eaaf6b9a2e763beacb36",
+      "size": 4323
+    },
+    {
+      "path": "/work/11653/teg883/vista/dg-fluxnet-friday-icon-evaluation-run-20260731-v4/milestone-selection/milestone-step-37500.json",
+      "sha256": "8f3e06666e472e1ee323da6aad987c0e2efdb52dc9e70b1e68cbfa422c4fc9f4",
+      "size": 4324
+    },
+    {
+      "path": "/work/11653/teg883/vista/dg-fluxnet-friday-icon-evaluation-run-20260731-v4/milestone-selection/milestone-step-40000.json",
+      "sha256": "b6a4ba14a48efadb528ff889716edc7ea0d9bce4fdde15c5779d4113e041b6a0",
+      "size": 4323
+    }
+  ],
+  "checkpoint_states": [
+    {
+      "state": {
+        "global_step": 5000,
+        "loop_state": {
+          "batch_total_processed": 5000,
+          "batches_that_stepped": 4999,
+          "epoch_count": 2,
+          "epoch_state": "completed",
+          "is_last_batch": false,
+          "optimizer_steps_completed": 5000,
+          "optimizer_zero_grad_completed": 5000,
+          "scheduler_steps_completed": 5000
+        },
+        "model_tensor_count": 65,
+        "optimizer": {
+          "learning_rate": 1e-05,
+          "parameter_group": {
+            "amsgrad": false,
+            "betas": [
+              0.9,
+              0.999
+            ],
+            "capturable": false,
+            "decoupled_weight_decay": true,
+            "differentiable": false,
+            "eps": 1e-08,
+            "foreach": null,
+            "fused": null,
+            "initial_lr": 0.0001,
+            "maximize": false,
+            "weight_decay": 0.01
+          },
+          "parameter_state_count": 65
+        },
+        "optimizer_state_count": 1,
+        "optimizer_steps_completed": 5000,
+        "passed": true,
+        "scheduler": {
+          "_get_lr_called_within_step": false,
+          "_is_initial": false,
+          "_last_lr": [
+            1e-05
+          ],
+          "_step_count": 5001,
+          "base_lrs": [
+            0.0001
+          ],
+          "decay_iters": 1000,
+          "end_lr_factor": 0.1,
+          "last_epoch": 5000,
+          "warmup_iters": 100
+        },
+        "scheduler_state_count": 1,
+        "schema": "dg_fluxnet_training_checkpoint_state_v1"
+      },
+      "update": 5000
+    },
+    {
+      "state": {
+        "global_step": 7500,
+        "loop_state": {
+          "batch_total_processed": 7500,
+          "batches_that_stepped": 7499,
+          "epoch_count": 3,
+          "epoch_state": "active",
+          "is_last_batch": false,
+          "optimizer_steps_completed": 7500,
+          "optimizer_zero_grad_completed": 7500,
+          "scheduler_steps_completed": 7500
+        },
+        "model_tensor_count": 65,
+        "optimizer": {
+          "learning_rate": 1e-05,
+          "parameter_group": {
+            "amsgrad": false,
+            "betas": [
+              0.9,
+              0.999
+            ],
+            "capturable": false,
+            "decoupled_weight_decay": true,
+            "differentiable": false,
+            "eps": 1e-08,
+            "foreach": null,
+            "fused": null,
+            "initial_lr": 0.0001,
+            "maximize": false,
+            "weight_decay": 0.01
+          },
+          "parameter_state_count": 65
+        },
+        "optimizer_state_count": 1,
+        "optimizer_steps_completed": 7500,
+        "passed": true,
+        "scheduler": {
+          "_get_lr_called_within_step": false,
+          "_is_initial": false,
+          "_last_lr": [
+            1e-05
+          ],
+          "_step_count": 7501,
+          "base_lrs": [
+            0.0001
+          ],
+          "decay_iters": 1000,
+          "end_lr_factor": 0.1,
+          "last_epoch": 7500,
+          "warmup_iters": 100
+        },
+        "scheduler_state_count": 1,
+        "schema": "dg_fluxnet_training_checkpoint_state_v1"
+      },
+      "update": 7500
+    },
+    {
+      "state": {
+        "global_step": 10000,
+        "loop_state": {
+          "batch_total_processed": 10000,
+          "batches_that_stepped": 9999,
+          "epoch_count": 3,
+          "epoch_state": "active",
+          "is_last_batch": false,
+          "optimizer_steps_completed": 10000,
+          "optimizer_zero_grad_completed": 10000,
+          "scheduler_steps_completed": 10000
+        },
+        "model_tensor_count": 65,
+        "optimizer": {
+          "learning_rate": 1e-05,
+          "parameter_group": {
+            "amsgrad": false,
+            "betas": [
+              0.9,
+              0.999
+            ],
+            "capturable": false,
+            "decoupled_weight_decay": true,
+            "differentiable": false,
+            "eps": 1e-08,
+            "foreach": null,
+            "fused": null,
+            "initial_lr": 0.0001,
+            "maximize": false,
+            "weight_decay": 0.01
+          },
+          "parameter_state_count": 65
+        },
+        "optimizer_state_count": 1,
+        "optimizer_steps_completed": 10000,
+        "passed": true,
+        "scheduler": {
+          "_get_lr_called_within_step": false,
+          "_is_initial": false,
+          "_last_lr": [
+            1e-05
+          ],
+          "_step_count": 10001,
+          "base_lrs": [
+            0.0001
+          ],
+          "decay_iters": 1000,
+          "end_lr_factor": 0.1,
+          "last_epoch": 10000,
+          "warmup_iters": 100
+        },
+        "scheduler_state_count": 1,
+        "schema": "dg_fluxnet_training_checkpoint_state_v1"
+      },
+      "update": 10000
+    },
+    {
+      "state": {
+        "global_step": 12500,
+        "loop_state": {
+          "batch_total_processed": 12500,
+          "batches_that_stepped": 12499,
+          "epoch_count": 3,
+          "epoch_state": "active",
+          "is_last_batch": false,
+          "optimizer_steps_completed": 12500,
+          "optimizer_zero_grad_completed": 12500,
+          "scheduler_steps_completed": 12500
+        },
+        "model_tensor_count": 65,
+        "optimizer": {
+          "learning_rate": 1e-05,
+          "parameter_group": {
+            "amsgrad": false,
+            "betas": [
+              0.9,
+              0.999
+            ],
+            "capturable": false,
+            "decoupled_weight_decay": true,
+            "differentiable": false,
+            "eps": 1e-08,
+            "foreach": null,
+            "fused": null,
+            "initial_lr": 0.0001,
+            "maximize": false,
+            "weight_decay": 0.01
+          },
+          "parameter_state_count": 65
+        },
+        "optimizer_state_count": 1,
+        "optimizer_steps_completed": 12500,
+        "passed": true,
+        "scheduler": {
+          "_get_lr_called_within_step": false,
+          "_is_initial": false,
+          "_last_lr": [
+            1e-05
+          ],
+          "_step_count": 12501,
+          "base_lrs": [
+            0.0001
+          ],
+          "decay_iters": 1000,
+          "end_lr_factor": 0.1,
+          "last_epoch": 12500,
+          "warmup_iters": 100
+        },
+        "scheduler_state_count": 1,
+        "schema": "dg_fluxnet_training_checkpoint_state_v1"
+      },
+      "update": 12500
+    },
+    {
+      "state": {
+        "global_step": 15000,
+        "loop_state": {
+          "batch_total_processed": 15000,
+          "batches_that_stepped": 14999,
+          "epoch_count": 3,
+          "epoch_state": "active",
+          "is_last_batch": false,
+          "optimizer_steps_completed": 15000,
+          "optimizer_zero_grad_completed": 15000,
+          "scheduler_steps_completed": 15000
+        },
+        "model_tensor_count": 65,
+        "optimizer": {
+          "learning_rate": 1e-05,
+          "parameter_group": {
+            "amsgrad": false,
+            "betas": [
+              0.9,
+              0.999
+            ],
+            "capturable": false,
+            "decoupled_weight_decay": true,
+            "differentiable": false,
+            "eps": 1e-08,
+            "foreach": null,
+            "fused": null,
+            "initial_lr": 0.0001,
+            "maximize": false,
+            "weight_decay": 0.01
+          },
+          "parameter_state_count": 65
+        },
+        "optimizer_state_count": 1,
+        "optimizer_steps_completed": 15000,
+        "passed": true,
+        "scheduler": {
+          "_get_lr_called_within_step": false,
+          "_is_initial": false,
+          "_last_lr": [
+            1e-05
+          ],
+          "_step_count": 15001,
+          "base_lrs": [
+            0.0001
+          ],
+          "decay_iters": 1000,
+          "end_lr_factor": 0.1,
+          "last_epoch": 15000,
+          "warmup_iters": 100
+        },
+        "scheduler_state_count": 1,
+        "schema": "dg_fluxnet_training_checkpoint_state_v1"
+      },
+      "update": 15000
+    },
+    {
+      "state": {
+        "global_step": 17500,
+        "loop_state": {
+          "batch_total_processed": 17500,
+          "batches_that_stepped": 17499,
+          "epoch_count": 3,
+          "epoch_state": "active",
+          "is_last_batch": false,
+          "optimizer_steps_completed": 17500,
+          "optimizer_zero_grad_completed": 17500,
+          "scheduler_steps_completed": 17500
+        },
+        "model_tensor_count": 65,
+        "optimizer": {
+          "learning_rate": 1e-05,
+          "parameter_group": {
+            "amsgrad": false,
+            "betas": [
+              0.9,
+              0.999
+            ],
+            "capturable": false,
+            "decoupled_weight_decay": true,
+            "differentiable": false,
+            "eps": 1e-08,
+            "foreach": null,
+            "fused": null,
+            "initial_lr": 0.0001,
+            "maximize": false,
+            "weight_decay": 0.01
+          },
+          "parameter_state_count": 65
+        },
+        "optimizer_state_count": 1,
+        "optimizer_steps_completed": 17500,
+        "passed": true,
+        "scheduler": {
+          "_get_lr_called_within_step": false,
+          "_is_initial": false,
+          "_last_lr": [
+            1e-05
+          ],
+          "_step_count": 17501,
+          "base_lrs": [
+            0.0001
+          ],
+          "decay_iters": 1000,
+          "end_lr_factor": 0.1,
+          "last_epoch": 17500,
+          "warmup_iters": 100
+        },
+        "scheduler_state_count": 1,
+        "schema": "dg_fluxnet_training_checkpoint_state_v1"
+      },
+      "update": 17500
+    },
+    {
+      "state": {
+        "global_step": 20000,
+        "loop_state": {
+          "batch_total_processed": 20000,
+          "batches_that_stepped": 19999,
+          "epoch_count": 3,
+          "epoch_state": "active",
+          "is_last_batch": false,
+          "optimizer_steps_completed": 20000,
+          "optimizer_zero_grad_completed": 20000,
+          "scheduler_steps_completed": 20000
+        },
+        "model_tensor_count": 65,
+        "optimizer": {
+          "learning_rate": 1e-05,
+          "parameter_group": {
+            "amsgrad": false,
+            "betas": [
+              0.9,
+              0.999
+            ],
+            "capturable": false,
+            "decoupled_weight_decay": true,
+            "differentiable": false,
+            "eps": 1e-08,
+            "foreach": null,
+            "fused": null,
+            "initial_lr": 0.0001,
+            "maximize": false,
+            "weight_decay": 0.01
+          },
+          "parameter_state_count": 65
+        },
+        "optimizer_state_count": 1,
+        "optimizer_steps_completed": 20000,
+        "passed": true,
+        "scheduler": {
+          "_get_lr_called_within_step": false,
+          "_is_initial": false,
+          "_last_lr": [
+            1e-05
+          ],
+          "_step_count": 20001,
+          "base_lrs": [
+            0.0001
+          ],
+          "decay_iters": 1000,
+          "end_lr_factor": 0.1,
+          "last_epoch": 20000,
+          "warmup_iters": 100
+        },
+        "scheduler_state_count": 1,
+        "schema": "dg_fluxnet_training_checkpoint_state_v1"
+      },
+      "update": 20000
+    },
+    {
+      "state": {
+        "global_step": 22500,
+        "loop_state": {
+          "batch_total_processed": 22500,
+          "batches_that_stepped": 22499,
+          "epoch_count": 3,
+          "epoch_state": "active",
+          "is_last_batch": false,
+          "optimizer_steps_completed": 22500,
+          "optimizer_zero_grad_completed": 22500,
+          "scheduler_steps_completed": 22500
+        },
+        "model_tensor_count": 65,
+        "optimizer": {
+          "learning_rate": 1e-05,
+          "parameter_group": {
+            "amsgrad": false,
+            "betas": [
+              0.9,
+              0.999
+            ],
+            "capturable": false,
+            "decoupled_weight_decay": true,
+            "differentiable": false,
+            "eps": 1e-08,
+            "foreach": null,
+            "fused": null,
+            "initial_lr": 0.0001,
+            "maximize": false,
+            "weight_decay": 0.01
+          },
+          "parameter_state_count": 65
+        },
+        "optimizer_state_count": 1,
+        "optimizer_steps_completed": 22500,
+        "passed": true,
+        "scheduler": {
+          "_get_lr_called_within_step": false,
+          "_is_initial": false,
+          "_last_lr": [
+            1e-05
+          ],
+          "_step_count": 22501,
+          "base_lrs": [
+            0.0001
+          ],
+          "decay_iters": 1000,
+          "end_lr_factor": 0.1,
+          "last_epoch": 22500,
+          "warmup_iters": 100
+        },
+        "scheduler_state_count": 1,
+        "schema": "dg_fluxnet_training_checkpoint_state_v1"
+      },
+      "update": 22500
+    },
+    {
+      "state": {
+        "global_step": 25000,
+        "loop_state": {
+          "batch_total_processed": 25000,
+          "batches_that_stepped": 24999,
+          "epoch_count": 3,
+          "epoch_state": "active",
+          "is_last_batch": false,
+          "optimizer_steps_completed": 25000,
+          "optimizer_zero_grad_completed": 25000,
+          "scheduler_steps_completed": 25000
+        },
+        "model_tensor_count": 65,
+        "optimizer": {
+          "learning_rate": 1e-05,
+          "parameter_group": {
+            "amsgrad": false,
+            "betas": [
+              0.9,
+              0.999
+            ],
+            "capturable": false,
+            "decoupled_weight_decay": true,
+            "differentiable": false,
+            "eps": 1e-08,
+            "foreach": null,
+            "fused": null,
+            "initial_lr": 0.0001,
+            "maximize": false,
+            "weight_decay": 0.01
+          },
+          "parameter_state_count": 65
+        },
+        "optimizer_state_count": 1,
+        "optimizer_steps_completed": 25000,
+        "passed": true,
+        "scheduler": {
+          "_get_lr_called_within_step": false,
+          "_is_initial": false,
+          "_last_lr": [
+            1e-05
+          ],
+          "_step_count": 25001,
+          "base_lrs": [
+            0.0001
+          ],
+          "decay_iters": 1000,
+          "end_lr_factor": 0.1,
+          "last_epoch": 25000,
+          "warmup_iters": 100
+        },
+        "scheduler_state_count": 1,
+        "schema": "dg_fluxnet_training_checkpoint_state_v1"
+      },
+      "update": 25000
+    },
+    {
+      "state": {
+        "global_step": 27500,
+        "loop_state": {
+          "batch_total_processed": 27500,
+          "batches_that_stepped": 27499,
+          "epoch_count": 3,
+          "epoch_state": "active",
+          "is_last_batch": false,
+          "optimizer_steps_completed": 27500,
+          "optimizer_zero_grad_completed": 27500,
+          "scheduler_steps_completed": 27500
+        },
+        "model_tensor_count": 65,
+        "optimizer": {
+          "learning_rate": 1e-05,
+          "parameter_group": {
+            "amsgrad": false,
+            "betas": [
+              0.9,
+              0.999
+            ],
+            "capturable": false,
+            "decoupled_weight_decay": true,
+            "differentiable": false,
+            "eps": 1e-08,
+            "foreach": null,
+            "fused": null,
+            "initial_lr": 0.0001,
+            "maximize": false,
+            "weight_decay": 0.01
+          },
+          "parameter_state_count": 65
+        },
+        "optimizer_state_count": 1,
+        "optimizer_steps_completed": 27500,
+        "passed": true,
+        "scheduler": {
+          "_get_lr_called_within_step": false,
+          "_is_initial": false,
+          "_last_lr": [
+            1e-05
+          ],
+          "_step_count": 27501,
+          "base_lrs": [
+            0.0001
+          ],
+          "decay_iters": 1000,
+          "end_lr_factor": 0.1,
+          "last_epoch": 27500,
+          "warmup_iters": 100
+        },
+        "scheduler_state_count": 1,
+        "schema": "dg_fluxnet_training_checkpoint_state_v1"
+      },
+      "update": 27500
+    },
+    {
+      "state": {
+        "global_step": 30000,
+        "loop_state": {
+          "batch_total_processed": 30000,
+          "batches_that_stepped": 29999,
+          "epoch_count": 3,
+          "epoch_state": "active",
+          "is_last_batch": false,
+          "optimizer_steps_completed": 30000,
+          "optimizer_zero_grad_completed": 30000,
+          "scheduler_steps_completed": 30000
+        },
+        "model_tensor_count": 65,
+        "optimizer": {
+          "learning_rate": 1e-05,
+          "parameter_group": {
+            "amsgrad": false,
+            "betas": [
+              0.9,
+              0.999
+            ],
+            "capturable": false,
+            "decoupled_weight_decay": true,
+            "differentiable": false,
+            "eps": 1e-08,
+            "foreach": null,
+            "fused": null,
+            "initial_lr": 0.0001,
+            "maximize": false,
+            "weight_decay": 0.01
+          },
+          "parameter_state_count": 65
+        },
+        "optimizer_state_count": 1,
+        "optimizer_steps_completed": 30000,
+        "passed": true,
+        "scheduler": {
+          "_get_lr_called_within_step": false,
+          "_is_initial": false,
+          "_last_lr": [
+            1e-05
+          ],
+          "_step_count": 30001,
+          "base_lrs": [
+            0.0001
+          ],
+          "decay_iters": 1000,
+          "end_lr_factor": 0.1,
+          "last_epoch": 30000,
+          "warmup_iters": 100
+        },
+        "scheduler_state_count": 1,
+        "schema": "dg_fluxnet_training_checkpoint_state_v1"
+      },
+      "update": 30000
+    },
+    {
+      "state": {
+        "global_step": 32500,
+        "loop_state": {
+          "batch_total_processed": 32500,
+          "batches_that_stepped": 32499,
+          "epoch_count": 3,
+          "epoch_state": "active",
+          "is_last_batch": false,
+          "optimizer_steps_completed": 32500,
+          "optimizer_zero_grad_completed": 32500,
+          "scheduler_steps_completed": 32500
+        },
+        "model_tensor_count": 65,
+        "optimizer": {
+          "learning_rate": 1e-05,
+          "parameter_group": {
+            "amsgrad": false,
+            "betas": [
+              0.9,
+              0.999
+            ],
+            "capturable": false,
+            "decoupled_weight_decay": true,
+            "differentiable": false,
+            "eps": 1e-08,
+            "foreach": null,
+            "fused": null,
+            "initial_lr": 0.0001,
+            "maximize": false,
+            "weight_decay": 0.01
+          },
+          "parameter_state_count": 65
+        },
+        "optimizer_state_count": 1,
+        "optimizer_steps_completed": 32500,
+        "passed": true,
+        "scheduler": {
+          "_get_lr_called_within_step": false,
+          "_is_initial": false,
+          "_last_lr": [
+            1e-05
+          ],
+          "_step_count": 32501,
+          "base_lrs": [
+            0.0001
+          ],
+          "decay_iters": 1000,
+          "end_lr_factor": 0.1,
+          "last_epoch": 32500,
+          "warmup_iters": 100
+        },
+        "scheduler_state_count": 1,
+        "schema": "dg_fluxnet_training_checkpoint_state_v1"
+      },
+      "update": 32500
+    },
+    {
+      "state": {
+        "global_step": 35000,
+        "loop_state": {
+          "batch_total_processed": 35000,
+          "batches_that_stepped": 34999,
+          "epoch_count": 3,
+          "epoch_state": "active",
+          "is_last_batch": false,
+          "optimizer_steps_completed": 35000,
+          "optimizer_zero_grad_completed": 35000,
+          "scheduler_steps_completed": 35000
+        },
+        "model_tensor_count": 65,
+        "optimizer": {
+          "learning_rate": 1e-05,
+          "parameter_group": {
+            "amsgrad": false,
+            "betas": [
+              0.9,
+              0.999
+            ],
+            "capturable": false,
+            "decoupled_weight_decay": true,
+            "differentiable": false,
+            "eps": 1e-08,
+            "foreach": null,
+            "fused": null,
+            "initial_lr": 0.0001,
+            "maximize": false,
+            "weight_decay": 0.01
+          },
+          "parameter_state_count": 65
+        },
+        "optimizer_state_count": 1,
+        "optimizer_steps_completed": 35000,
+        "passed": true,
+        "scheduler": {
+          "_get_lr_called_within_step": false,
+          "_is_initial": false,
+          "_last_lr": [
+            1e-05
+          ],
+          "_step_count": 35001,
+          "base_lrs": [
+            0.0001
+          ],
+          "decay_iters": 1000,
+          "end_lr_factor": 0.1,
+          "last_epoch": 35000,
+          "warmup_iters": 100
+        },
+        "scheduler_state_count": 1,
+        "schema": "dg_fluxnet_training_checkpoint_state_v1"
+      },
+      "update": 35000
+    },
+    {
+      "state": {
+        "global_step": 37500,
+        "loop_state": {
+          "batch_total_processed": 37500,
+          "batches_that_stepped": 37499,
+          "epoch_count": 3,
+          "epoch_state": "active",
+          "is_last_batch": false,
+          "optimizer_steps_completed": 37500,
+          "optimizer_zero_grad_completed": 37500,
+          "scheduler_steps_completed": 37500
+        },
+        "model_tensor_count": 65,
+        "optimizer": {
+          "learning_rate": 1e-05,
+          "parameter_group": {
+            "amsgrad": false,
+            "betas": [
+              0.9,
+              0.999
+            ],
+            "capturable": false,
+            "decoupled_weight_decay": true,
+            "differentiable": false,
+            "eps": 1e-08,
+            "foreach": null,
+            "fused": null,
+            "initial_lr": 0.0001,
+            "maximize": false,
+            "weight_decay": 0.01
+          },
+          "parameter_state_count": 65
+        },
+        "optimizer_state_count": 1,
+        "optimizer_steps_completed": 37500,
+        "passed": true,
+        "scheduler": {
+          "_get_lr_called_within_step": false,
+          "_is_initial": false,
+          "_last_lr": [
+            1e-05
+          ],
+          "_step_count": 37501,
+          "base_lrs": [
+            0.0001
+          ],
+          "decay_iters": 1000,
+          "end_lr_factor": 0.1,
+          "last_epoch": 37500,
+          "warmup_iters": 100
+        },
+        "scheduler_state_count": 1,
+        "schema": "dg_fluxnet_training_checkpoint_state_v1"
+      },
+      "update": 37500
+    },
+    {
+      "state": {
+        "global_step": 40000,
+        "loop_state": {
+          "batch_total_processed": 40000,
+          "batches_that_stepped": 39999,
+          "epoch_count": 4,
+          "epoch_state": "active",
+          "is_last_batch": false,
+          "optimizer_steps_completed": 40000,
+          "optimizer_zero_grad_completed": 40000,
+          "scheduler_steps_completed": 40000
+        },
+        "model_tensor_count": 65,
+        "optimizer": {
+          "learning_rate": 1e-05,
+          "parameter_group": {
+            "amsgrad": false,
+            "betas": [
+              0.9,
+              0.999
+            ],
+            "capturable": false,
+            "decoupled_weight_decay": true,
+            "differentiable": false,
+            "eps": 1e-08,
+            "foreach": null,
+            "fused": null,
+            "initial_lr": 0.0001,
+            "maximize": false,
+            "weight_decay": 0.01
+          },
+          "parameter_state_count": 65
+        },
+        "optimizer_state_count": 1,
+        "optimizer_steps_completed": 40000,
+        "passed": true,
+        "scheduler": {
+          "_get_lr_called_within_step": false,
+          "_is_initial": false,
+          "_last_lr": [
+            1e-05
+          ],
+          "_step_count": 40001,
+          "base_lrs": [
+            0.0001
+          ],
+          "decay_iters": 1000,
+          "end_lr_factor": 0.1,
+          "last_epoch": 40000,
+          "warmup_iters": 100
+        },
+        "scheduler_state_count": 1,
+        "schema": "dg_fluxnet_training_checkpoint_state_v1"
+      },
+      "update": 40000
+    }
+  ],
+  "command": "/work/11653/teg883/vista/dg-fluxnet-friday-evaluation-source-20260730-v4/scripts_flux_context_icon/evaluate_dg_fluxnet_milestones.py --checkpoint 5000=08e2b83bfd23ec2087d734937b8796c34cfb55427ecc1519e7e2d25d3e093c55=/work/11653/teg883/vista/dg-fluxnet-continuation-5000-run-20260729-v2/job-874128/checkpoints/step_5000.ckpt --checkpoint 7500=e4822351e5637a9384d6a819d53cdb558cb37def45e07b6136a78ac393f7e7a8=/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_7500.ckpt --checkpoint 10000=46178c62d2708dcbf6fab2a0b687def5a2e63fa4adf0ffa29e09ec068abef9c1=/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_10000.ckpt --checkpoint 12500=f0d8c38208d73506d9af3bf827d5701042af1d5dc5fa510ba68a93baefe4a457=/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_12500.ckpt --checkpoint 15000=ab6979a2b706c99d4b01310cd09ca5a6f7e9831e2d5afd9f3c8a8a5b2c317dc5=/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_15000.ckpt --checkpoint 17500=559fcece0faca1b83f470ed8634b95e3c5bc1ccc968de9aa100d9f0e66de9a25=/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_17500.ckpt --checkpoint 20000=da1ab8d83278e265745d5dc8907171f5a4dc50e38d2c3f61f19ebc7bef8fe997=/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_20000.ckpt --checkpoint 22500=ddd550fa09f3dd888362e4f745344c5cdc5714b9a1ba2dc6e0a4116f52e8836d=/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_22500.ckpt --checkpoint 25000=045e7130fff9ed9588f45f37a4107ab147378c52dab516bb9a1a0a2893d903e5=/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_25000.ckpt --checkpoint 27500=92a6b24859f877307e054fe8702f4e028d44f49c90b15fce1722e1ed986d09fe=/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_27500.ckpt --checkpoint 30000=6433f7ccbd98956794784c970c9659ab1c9c361f415cce05fabc9c0d000c0a62=/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_30000.ckpt --checkpoint 32500=0abf393dd8ccfa1b760b8d408dba967043cd123ae207374cf9ddab7433d51df5=/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_32500.ckpt --checkpoint 35000=6032e58e6c1810af46dfc97adefd47202eb3cced19a25a1fdaa47891b68ab576=/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_35000.ckpt --checkpoint 37500=58cc13c189c27b37bc56551a08797335e4b71d07e5fed85bd6f5778ef26cf2f6=/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_37500.ckpt --checkpoint 40000=2710bd459a6bcfe86d5cfaad4de19b9bccc28081e46fc7a4f38f03b8913fe7d7=/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_40000.ckpt --resolved-config /work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/.hydra/config.yaml --resolved-config-sha256 02e23e128f31dee5c45b08c4b5de48b8f1eef8ecc76bee4be4d984f3a0c28b4f --validation-cache /work/11653/teg883/vista/dg-fluxnet-v2-combined-validation-cache-20260726-v1/output/combined-collections/validation/sha256-68c63a3afd15e4dc1369a6741b2d905b6ce92af8cbdc0c8b9e3d3317bfadfa1f --validation-cache-manifest-sha256 2b0366b02d319e9390ad703fd8e84d205ba232dd3080d1376acf0059522f593f --step5000-reference /work/11653/teg883/vista/dg-fluxnet-continuation-5000-run-20260729-v2/job-874128/matched-evaluation/matched-summary.json --step5000-reference-sha256 7c61e89289d18a85a2806799eee4ab7803cdf52a0706a8fdcc70dd6b4dae3222 --checkpoint-inventory /work/11653/teg883/vista/dg-fluxnet-friday-icon-evaluation-run-20260731-v4/milestone-discovery.json --checkpoint-inventory-sha256 9799f7162b4cbb5a5efd93e1f0116cf891513a69477119fe048d38a1796d4312 --evaluation-source-root /work/11653/teg883/vista/dg-fluxnet-friday-evaluation-source-20260730-v4 --evaluation-source-manifest /work/11653/teg883/vista/dg-fluxnet-friday-evaluation-source-20260730-v4/SOURCE_MANIFEST.sha256 --evaluation-source-manifest-sha256 b1bc06ca8137a0a9d53a2e9e77dacac43190c916f015001bf570387ea1ab39c5 --output-dir /work/11653/teg883/vista/dg-fluxnet-friday-icon-evaluation-run-20260731-v4/milestone-selection --device cuda",
+  "development_validation_only": true,
+  "evaluations": [
+    {
+      "checkpoint": {
+        "path": "/work/11653/teg883/vista/dg-fluxnet-continuation-5000-run-20260729-v2/job-874128/checkpoints/step_5000.ckpt",
+        "sha256": "08e2b83bfd23ec2087d734937b8796c34cfb55427ecc1519e7e2d25d3e093c55",
+        "size": 27868277
+      },
+      "checks": {
+        "finite_metric_values": true,
+        "h1_l2_no_regression": true,
+        "h1_linf_no_regression": true,
+        "h20_l2_no_regression": true,
+        "h20_linf_no_regression": true,
+        "maximum_normalized_mass_drift_at_most_1e_6": true,
+        "zero_nonfinite_h1_h20": true
+      },
+      "eligible": true,
+      "metrics": {
+        "h1": {
+          "global_linf": 0.8622341752052307,
+          "global_relative_l2": 0.0213678739964962,
+          "metric_status": "finite",
+          "nonfinite_count": 0,
+          "normalized_mass_drift_abs_max": 8.630597108094662e-07,
+          "normalized_mass_drift_abs_mean": 2.0282900692336625e-08,
+          "normalized_mass_drift_abs_median": 0.0,
+          "prediction_total_variation_mean": 4.767120361328125,
+          "relative_l2_median": 0.014695663005113602,
+          "relative_l2_q90": 0.031580958515405655,
+          "relative_l2_q99": 0.053514525294303894,
+          "samples": 2048,
+          "target_total_variation_mean": 4.742398262023926,
+          "total_variation_relative_error_max": 0.21707139909267426,
+          "total_variation_relative_error_mean": 0.01736370101571083
+        },
+        "h20": {
+          "global_linf": 0.9900148510932922,
+          "global_relative_l2": 0.05601958930492401,
+          "metric_status": "finite",
+          "nonfinite_count": 0,
+          "normalized_mass_drift_abs_max": 8.630597108094662e-07,
+          "normalized_mass_drift_abs_mean": 2.3329668863425468e-08,
+          "normalized_mass_drift_abs_median": 0.0,
+          "prediction_total_variation_mean": 3.980994701385498,
+          "relative_l2_median": 0.05426060035824776,
+          "relative_l2_q90": 0.11160948872566223,
+          "relative_l2_q99": 0.2494431436061859,
+          "samples": 2048,
+          "target_total_variation_mean": 3.8702759742736816,
+          "total_variation_relative_error_max": 2.9107930660247803,
+          "total_variation_relative_error_mean": 0.07651446759700775
+        }
+      },
+      "rejection_reasons": [],
+      "selection_status": "eligible",
+      "update": 5000
+    },
+    {
+      "checkpoint": {
+        "path": "/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_7500.ckpt",
+        "sha256": "e4822351e5637a9384d6a819d53cdb558cb37def45e07b6136a78ac393f7e7a8",
+        "size": 27868213
+      },
+      "checks": {
+        "finite_metric_values": true,
+        "h1_l2_no_regression": true,
+        "h1_linf_no_regression": true,
+        "h20_l2_no_regression": true,
+        "h20_linf_no_regression": true,
+        "maximum_normalized_mass_drift_at_most_1e_6": true,
+        "zero_nonfinite_h1_h20": true
+      },
+      "eligible": true,
+      "metrics": {
+        "h1": {
+          "global_linf": 0.8612973690032959,
+          "global_relative_l2": 0.019563088193535805,
+          "metric_status": "finite",
+          "nonfinite_count": 0,
+          "normalized_mass_drift_abs_max": 8.630597108094662e-07,
+          "normalized_mass_drift_abs_mean": 1.886715850218934e-08,
+          "normalized_mass_drift_abs_median": 0.0,
+          "prediction_total_variation_mean": 4.778107643127441,
+          "relative_l2_median": 0.012691671960055828,
+          "relative_l2_q90": 0.027835216373205185,
+          "relative_l2_q99": 0.04791983217000961,
+          "samples": 2048,
+          "target_total_variation_mean": 4.742398262023926,
+          "total_variation_relative_error_max": 0.29662659764289856,
+          "total_variation_relative_error_mean": 0.01607169583439827
+        },
+        "h20": {
+          "global_linf": 0.9650393128395081,
+          "global_relative_l2": 0.05562508478760719,
+          "metric_status": "finite",
+          "nonfinite_count": 0,
+          "normalized_mass_drift_abs_max": 8.630597108094662e-07,
+          "normalized_mass_drift_abs_mean": 2.1531104010819035e-08,
+          "normalized_mass_drift_abs_median": 0.0,
+          "prediction_total_variation_mean": 4.087653636932373,
+          "relative_l2_median": 0.05309153348207474,
+          "relative_l2_q90": 0.10462977737188339,
+          "relative_l2_q99": 0.2485215812921524,
+          "samples": 2048,
+          "target_total_variation_mean": 3.8702759742736816,
+          "total_variation_relative_error_max": 10.044546127319336,
+          "total_variation_relative_error_mean": 0.09140051901340485
+        }
+      },
+      "rejection_reasons": [],
+      "selection_status": "eligible",
+      "update": 7500
+    },
+    {
+      "checkpoint": {
+        "path": "/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_10000.ckpt",
+        "sha256": "46178c62d2708dcbf6fab2a0b687def5a2e63fa4adf0ffa29e09ec068abef9c1",
+        "size": 27868341
+      },
+      "checks": {
+        "finite_metric_values": true,
+        "h1_l2_no_regression": true,
+        "h1_linf_no_regression": true,
+        "h20_l2_no_regression": true,
+        "h20_linf_no_regression": false,
+        "maximum_normalized_mass_drift_at_most_1e_6": true,
+        "zero_nonfinite_h1_h20": true
+      },
+      "eligible": false,
+      "metrics": {
+        "h1": {
+          "global_linf": 0.8568810820579529,
+          "global_relative_l2": 0.018319841474294662,
+          "metric_status": "finite",
+          "nonfinite_count": 0,
+          "normalized_mass_drift_abs_max": 5.017648163629929e-07,
+          "normalized_mass_drift_abs_mean": 2.0459342664480573e-08,
+          "normalized_mass_drift_abs_median": 0.0,
+          "prediction_total_variation_mean": 4.760176658630371,
+          "relative_l2_median": 0.011598555371165276,
+          "relative_l2_q90": 0.02600385993719101,
+          "relative_l2_q99": 0.045587122440338135,
+          "samples": 2048,
+          "target_total_variation_mean": 4.742398262023926,
+          "total_variation_relative_error_max": 0.3435295820236206,
+          "total_variation_relative_error_mean": 0.014958787709474564
+        },
+        "h20": {
+          "global_linf": 1.0147483348846436,
+          "global_relative_l2": 0.04991193860769272,
+          "metric_status": "finite",
+          "nonfinite_count": 0,
+          "normalized_mass_drift_abs_max": 8.630597108094662e-07,
+          "normalized_mass_drift_abs_mean": 2.251213970794197e-08,
+          "normalized_mass_drift_abs_median": 0.0,
+          "prediction_total_variation_mean": 3.985898971557617,
+          "relative_l2_median": 0.04370914772152901,
+          "relative_l2_q90": 0.09728902578353882,
+          "relative_l2_q99": 0.21858331561088562,
+          "samples": 2048,
+          "target_total_variation_mean": 3.8702759742736816,
+          "total_variation_relative_error_max": 7.983566761016846,
+          "total_variation_relative_error_mean": 0.06754922866821289
+        }
+      },
+      "rejection_reasons": [
+        "h20_linf_no_regression"
+      ],
+      "selection_status": "rejected",
+      "update": 10000
+    },
+    {
+      "checkpoint": {
+        "path": "/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_12500.ckpt",
+        "sha256": "f0d8c38208d73506d9af3bf827d5701042af1d5dc5fa510ba68a93baefe4a457",
+        "size": 27868341
+      },
+      "checks": {
+        "finite_metric_values": true,
+        "h1_l2_no_regression": true,
+        "h1_linf_no_regression": true,
+        "h20_l2_no_regression": true,
+        "h20_linf_no_regression": false,
+        "maximum_normalized_mass_drift_at_most_1e_6": true,
+        "zero_nonfinite_h1_h20": true
+      },
+      "eligible": false,
+      "metrics": {
+        "h1": {
+          "global_linf": 0.8586106300354004,
+          "global_relative_l2": 0.017394253984093666,
+          "metric_status": "finite",
+          "nonfinite_count": 0,
+          "normalized_mass_drift_abs_max": 8.630597108094662e-07,
+          "normalized_mass_drift_abs_mean": 2.245162988856464e-08,
+          "normalized_mass_drift_abs_median": 0.0,
+          "prediction_total_variation_mean": 4.765707969665527,
+          "relative_l2_median": 0.010197529569268227,
+          "relative_l2_q90": 0.02355395257472992,
+          "relative_l2_q99": 0.04226179048418999,
+          "samples": 2048,
+          "target_total_variation_mean": 4.742398262023926,
+          "total_variation_relative_error_max": 0.32926875352859497,
+          "total_variation_relative_error_mean": 0.01399143971502781
+        },
+        "h20": {
+          "global_linf": 1.034708857536316,
+          "global_relative_l2": 0.047100137919187546,
+          "metric_status": "finite",
+          "nonfinite_count": 0,
+          "normalized_mass_drift_abs_max": 8.630597108094662e-07,
+          "normalized_mass_drift_abs_mean": 2.2153264112034776e-08,
+          "normalized_mass_drift_abs_median": 0.0,
+          "prediction_total_variation_mean": 4.036196231842041,
+          "relative_l2_median": 0.04042009636759758,
+          "relative_l2_q90": 0.09446074813604355,
+          "relative_l2_q99": 0.21685713529586792,
+          "samples": 2048,
+          "target_total_variation_mean": 3.8702759742736816,
+          "total_variation_relative_error_max": 4.474136829376221,
+          "total_variation_relative_error_mean": 0.07030317187309265
+        }
+      },
+      "rejection_reasons": [
+        "h20_linf_no_regression"
+      ],
+      "selection_status": "rejected",
+      "update": 12500
+    },
+    {
+      "checkpoint": {
+        "path": "/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_15000.ckpt",
+        "sha256": "ab6979a2b706c99d4b01310cd09ca5a6f7e9831e2d5afd9f3c8a8a5b2c317dc5",
+        "size": 27868341
+      },
+      "checks": {
+        "finite_metric_values": true,
+        "h1_l2_no_regression": true,
+        "h1_linf_no_regression": true,
+        "h20_l2_no_regression": true,
+        "h20_linf_no_regression": true,
+        "maximum_normalized_mass_drift_at_most_1e_6": true,
+        "zero_nonfinite_h1_h20": true
+      },
+      "eligible": true,
+      "metrics": {
+        "h1": {
+          "global_linf": 0.8521282076835632,
+          "global_relative_l2": 0.01683979108929634,
+          "metric_status": "finite",
+          "nonfinite_count": 0,
+          "normalized_mass_drift_abs_max": 8.630597108094662e-07,
+          "normalized_mass_drift_abs_mean": 1.931845261538001e-08,
+          "normalized_mass_drift_abs_median": 0.0,
+          "prediction_total_variation_mean": 4.761009216308594,
+          "relative_l2_median": 0.009376585483551025,
+          "relative_l2_q90": 0.022656455636024475,
+          "relative_l2_q99": 0.04251735657453537,
+          "samples": 2048,
+          "target_total_variation_mean": 4.742398262023926,
+          "total_variation_relative_error_max": 0.2595228850841522,
+          "total_variation_relative_error_mean": 0.012052561156451702
+        },
+        "h20": {
+          "global_linf": 0.9814260601997375,
+          "global_relative_l2": 0.047113317996263504,
+          "metric_status": "finite",
+          "nonfinite_count": 0,
+          "normalized_mass_drift_abs_max": 8.630597108094662e-07,
+          "normalized_mass_drift_abs_mean": 2.2346162253938928e-08,
+          "normalized_mass_drift_abs_median": 0.0,
+          "prediction_total_variation_mean": 4.05023193359375,
+          "relative_l2_median": 0.04070570319890976,
+          "relative_l2_q90": 0.09115133434534073,
+          "relative_l2_q99": 0.2111033797264099,
+          "samples": 2048,
+          "target_total_variation_mean": 3.8702759742736816,
+          "total_variation_relative_error_max": 3.75388240814209,
+          "total_variation_relative_error_mean": 0.0699395015835762
+        }
+      },
+      "rejection_reasons": [],
+      "selection_status": "eligible",
+      "update": 15000
+    },
+    {
+      "checkpoint": {
+        "path": "/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_17500.ckpt",
+        "sha256": "559fcece0faca1b83f470ed8634b95e3c5bc1ccc968de9aa100d9f0e66de9a25",
+        "size": 27868341
+      },
+      "checks": {
+        "finite_metric_values": true,
+        "h1_l2_no_regression": true,
+        "h1_linf_no_regression": true,
+        "h20_l2_no_regression": true,
+        "h20_linf_no_regression": false,
+        "maximum_normalized_mass_drift_at_most_1e_6": true,
+        "zero_nonfinite_h1_h20": true
+      },
+      "eligible": false,
+      "metrics": {
+        "h1": {
+          "global_linf": 0.8448129296302795,
+          "global_relative_l2": 0.016189178451895714,
+          "metric_status": "finite",
+          "nonfinite_count": 0,
+          "normalized_mass_drift_abs_max": 8.630597108094662e-07,
+          "normalized_mass_drift_abs_mean": 2.1209597633742305e-08,
+          "normalized_mass_drift_abs_median": 0.0,
+          "prediction_total_variation_mean": 4.756235122680664,
+          "relative_l2_median": 0.00904209166765213,
+          "relative_l2_q90": 0.02089500240981579,
+          "relative_l2_q99": 0.036462679505348206,
+          "samples": 2048,
+          "target_total_variation_mean": 4.742398262023926,
+          "total_variation_relative_error_max": 0.27379679679870605,
+          "total_variation_relative_error_mean": 0.013465860858559608
+        },
+        "h20": {
+          "global_linf": 1.0231592655181885,
+          "global_relative_l2": 0.04325270280241966,
+          "metric_status": "finite",
+          "nonfinite_count": 0,
+          "normalized_mass_drift_abs_max": 8.630597108094662e-07,
+          "normalized_mass_drift_abs_mean": 2.083701922117598e-08,
+          "normalized_mass_drift_abs_median": 0.0,
+          "prediction_total_variation_mean": 3.946223497390747,
+          "relative_l2_median": 0.03464406356215477,
+          "relative_l2_q90": 0.08210959285497665,
+          "relative_l2_q99": 0.21275998651981354,
+          "samples": 2048,
+          "target_total_variation_mean": 3.8702759742736816,
+          "total_variation_relative_error_max": 1.8655575513839722,
+          "total_variation_relative_error_mean": 0.0513884574174881
+        }
+      },
+      "rejection_reasons": [
+        "h20_linf_no_regression"
+      ],
+      "selection_status": "rejected",
+      "update": 17500
+    },
+    {
+      "checkpoint": {
+        "path": "/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_20000.ckpt",
+        "sha256": "da1ab8d83278e265745d5dc8907171f5a4dc50e38d2c3f61f19ebc7bef8fe997",
+        "size": 27868341
+      },
+      "checks": {
+        "finite_metric_values": true,
+        "h1_l2_no_regression": true,
+        "h1_linf_no_regression": true,
+        "h20_l2_no_regression": true,
+        "h20_linf_no_regression": false,
+        "maximum_normalized_mass_drift_at_most_1e_6": true,
+        "zero_nonfinite_h1_h20": true
+      },
+      "eligible": false,
+      "metrics": {
+        "h1": {
+          "global_linf": 0.8395335674285889,
+          "global_relative_l2": 0.01582786627113819,
+          "metric_status": "finite",
+          "nonfinite_count": 0,
+          "normalized_mass_drift_abs_max": 8.630597108094662e-07,
+          "normalized_mass_drift_abs_mean": 2.137639754096199e-08,
+          "normalized_mass_drift_abs_median": 0.0,
+          "prediction_total_variation_mean": 4.744885444641113,
+          "relative_l2_median": 0.008649677038192749,
+          "relative_l2_q90": 0.020828554406762123,
+          "relative_l2_q99": 0.03866137936711311,
+          "samples": 2048,
+          "target_total_variation_mean": 4.742398262023926,
+          "total_variation_relative_error_max": 0.2553126811981201,
+          "total_variation_relative_error_mean": 0.01277998648583889
+        },
+        "h20": {
+          "global_linf": 1.0136464834213257,
+          "global_relative_l2": 0.04433654248714447,
+          "metric_status": "finite",
+          "nonfinite_count": 0,
+          "normalized_mass_drift_abs_max": 8.630597108094662e-07,
+          "normalized_mass_drift_abs_mean": 2.1646004100261962e-08,
+          "normalized_mass_drift_abs_median": 0.0,
+          "prediction_total_variation_mean": 3.9231855869293213,
+          "relative_l2_median": 0.03886651620268822,
+          "relative_l2_q90": 0.08548252284526825,
+          "relative_l2_q99": 0.200251042842865,
+          "samples": 2048,
+          "target_total_variation_mean": 3.8702759742736816,
+          "total_variation_relative_error_max": 3.0897135734558105,
+          "total_variation_relative_error_mean": 0.05606040731072426
+        }
+      },
+      "rejection_reasons": [
+        "h20_linf_no_regression"
+      ],
+      "selection_status": "rejected",
+      "update": 20000
+    },
+    {
+      "checkpoint": {
+        "path": "/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_22500.ckpt",
+        "sha256": "ddd550fa09f3dd888362e4f745344c5cdc5714b9a1ba2dc6e0a4116f52e8836d",
+        "size": 27868341
+      },
+      "checks": {
+        "finite_metric_values": true,
+        "h1_l2_no_regression": true,
+        "h1_linf_no_regression": true,
+        "h20_l2_no_regression": true,
+        "h20_linf_no_regression": true,
+        "maximum_normalized_mass_drift_at_most_1e_6": true,
+        "zero_nonfinite_h1_h20": true
+      },
+      "eligible": true,
+      "metrics": {
+        "h1": {
+          "global_linf": 0.8337096571922302,
+          "global_relative_l2": 0.015506627038121223,
+          "metric_status": "finite",
+          "nonfinite_count": 0,
+          "normalized_mass_drift_abs_max": 8.630597108094662e-07,
+          "normalized_mass_drift_abs_mean": 1.9740078016639018e-08,
+          "normalized_mass_drift_abs_median": 0.0,
+          "prediction_total_variation_mean": 4.753545761108398,
+          "relative_l2_median": 0.007808004505932331,
+          "relative_l2_q90": 0.01923752948641777,
+          "relative_l2_q99": 0.03634091466665268,
+          "samples": 2048,
+          "target_total_variation_mean": 4.742398262023926,
+          "total_variation_relative_error_max": 0.21873848140239716,
+          "total_variation_relative_error_mean": 0.011346250772476196
+        },
+        "h20": {
+          "global_linf": 0.9453006982803345,
+          "global_relative_l2": 0.044350989162921906,
+          "metric_status": "finite",
+          "nonfinite_count": 0,
+          "normalized_mass_drift_abs_max": 8.630597108094662e-07,
+          "normalized_mass_drift_abs_mean": 2.3284624006691956e-08,
+          "normalized_mass_drift_abs_median": 0.0,
+          "prediction_total_variation_mean": 3.9509472846984863,
+          "relative_l2_median": 0.03779492527246475,
+          "relative_l2_q90": 0.08721894025802612,
+          "relative_l2_q99": 0.20319658517837524,
+          "samples": 2048,
+          "target_total_variation_mean": 3.8702759742736816,
+          "total_variation_relative_error_max": 1.6609604358673096,
+          "total_variation_relative_error_mean": 0.04500255733728409
+        }
+      },
+      "rejection_reasons": [],
+      "selection_status": "eligible",
+      "update": 22500
+    },
+    {
+      "checkpoint": {
+        "path": "/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_25000.ckpt",
+        "sha256": "045e7130fff9ed9588f45f37a4107ab147378c52dab516bb9a1a0a2893d903e5",
+        "size": 27868341
+      },
+      "checks": {
+        "finite_metric_values": true,
+        "h1_l2_no_regression": true,
+        "h1_linf_no_regression": true,
+        "h20_l2_no_regression": true,
+        "h20_linf_no_regression": false,
+        "maximum_normalized_mass_drift_at_most_1e_6": true,
+        "zero_nonfinite_h1_h20": true
+      },
+      "eligible": false,
+      "metrics": {
+        "h1": {
+          "global_linf": 0.8297430276870728,
+          "global_relative_l2": 0.014952439814805984,
+          "metric_status": "finite",
+          "nonfinite_count": 0,
+          "normalized_mass_drift_abs_max": 8.630597108094662e-07,
+          "normalized_mass_drift_abs_mean": 1.9759600178304026e-08,
+          "normalized_mass_drift_abs_median": 0.0,
+          "prediction_total_variation_mean": 4.769434452056885,
+          "relative_l2_median": 0.007289961911737919,
+          "relative_l2_q90": 0.01813328266143799,
+          "relative_l2_q99": 0.03544981777667999,
+          "samples": 2048,
+          "target_total_variation_mean": 4.742398262023926,
+          "total_variation_relative_error_max": 0.25380486249923706,
+          "total_variation_relative_error_mean": 0.012188708409667015
+        },
+        "h20": {
+          "global_linf": 0.9997051358222961,
+          "global_relative_l2": 0.042585473507642746,
+          "metric_status": "finite",
+          "nonfinite_count": 0,
+          "normalized_mass_drift_abs_max": 8.8439242063032e-07,
+          "normalized_mass_drift_abs_mean": 2.2921483378013363e-08,
+          "normalized_mass_drift_abs_median": 0.0,
+          "prediction_total_variation_mean": 4.028726577758789,
+          "relative_l2_median": 0.03444195166230202,
+          "relative_l2_q90": 0.08064783364534378,
+          "relative_l2_q99": 0.19622759521007538,
+          "samples": 2048,
+          "target_total_variation_mean": 3.8702759742736816,
+          "total_variation_relative_error_max": 1.8597246408462524,
+          "total_variation_relative_error_mean": 0.05790083855390549
+        }
+      },
+      "rejection_reasons": [
+        "h20_linf_no_regression"
+      ],
+      "selection_status": "rejected",
+      "update": 25000
+    },
+    {
+      "checkpoint": {
+        "path": "/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_27500.ckpt",
+        "sha256": "92a6b24859f877307e054fe8702f4e028d44f49c90b15fce1722e1ed986d09fe",
+        "size": 27868341
+      },
+      "checks": {
+        "finite_metric_values": true,
+        "h1_l2_no_regression": true,
+        "h1_linf_no_regression": true,
+        "h20_l2_no_regression": true,
+        "h20_linf_no_regression": true,
+        "maximum_normalized_mass_drift_at_most_1e_6": true,
+        "zero_nonfinite_h1_h20": true
+      },
+      "eligible": true,
+      "metrics": {
+        "h1": {
+          "global_linf": 0.8166832327842712,
+          "global_relative_l2": 0.014852788299322128,
+          "metric_status": "finite",
+          "nonfinite_count": 0,
+          "normalized_mass_drift_abs_max": 8.630597108094662e-07,
+          "normalized_mass_drift_abs_mean": 2.0043286141913086e-08,
+          "normalized_mass_drift_abs_median": 0.0,
+          "prediction_total_variation_mean": 4.748133659362793,
+          "relative_l2_median": 0.007150675635784864,
+          "relative_l2_q90": 0.01761525124311447,
+          "relative_l2_q99": 0.03502823784947395,
+          "samples": 2048,
+          "target_total_variation_mean": 4.742398262023926,
+          "total_variation_relative_error_max": 0.24431289732456207,
+          "total_variation_relative_error_mean": 0.01124555990099907
+        },
+        "h20": {
+          "global_linf": 0.9506732821464539,
+          "global_relative_l2": 0.04351496323943138,
+          "metric_status": "finite",
+          "nonfinite_count": 0,
+          "normalized_mass_drift_abs_max": 8.630597108094662e-07,
+          "normalized_mass_drift_abs_mean": 2.2770654695136727e-08,
+          "normalized_mass_drift_abs_median": 0.0,
+          "prediction_total_variation_mean": 3.881709575653076,
+          "relative_l2_median": 0.037841055542230606,
+          "relative_l2_q90": 0.08576959371566772,
+          "relative_l2_q99": 0.18503853678703308,
+          "samples": 2048,
+          "target_total_variation_mean": 3.8702759742736816,
+          "total_variation_relative_error_max": 2.8411498069763184,
+          "total_variation_relative_error_mean": 0.044300392270088196
+        }
+      },
+      "rejection_reasons": [],
+      "selection_status": "eligible",
+      "update": 27500
+    },
+    {
+      "checkpoint": {
+        "path": "/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_30000.ckpt",
+        "sha256": "6433f7ccbd98956794784c970c9659ab1c9c361f415cce05fabc9c0d000c0a62",
+        "size": 27868341
+      },
+      "checks": {
+        "finite_metric_values": true,
+        "h1_l2_no_regression": true,
+        "h1_linf_no_regression": true,
+        "h20_l2_no_regression": true,
+        "h20_linf_no_regression": true,
+        "maximum_normalized_mass_drift_at_most_1e_6": true,
+        "zero_nonfinite_h1_h20": true
+      },
+      "eligible": true,
+      "metrics": {
+        "h1": {
+          "global_linf": 0.8206230998039246,
+          "global_relative_l2": 0.014614647254347801,
+          "metric_status": "finite",
+          "nonfinite_count": 0,
+          "normalized_mass_drift_abs_max": 8.630597108094662e-07,
+          "normalized_mass_drift_abs_mean": 1.9688144448082312e-08,
+          "normalized_mass_drift_abs_median": 0.0,
+          "prediction_total_variation_mean": 4.759407997131348,
+          "relative_l2_median": 0.006914951838552952,
+          "relative_l2_q90": 0.016889413818717003,
+          "relative_l2_q99": 0.0349293053150177,
+          "samples": 2048,
+          "target_total_variation_mean": 4.742398262023926,
+          "total_variation_relative_error_max": 0.23597398400306702,
+          "total_variation_relative_error_mean": 0.011049613356590271
+        },
+        "h20": {
+          "global_linf": 0.975957989692688,
+          "global_relative_l2": 0.0443572923541069,
+          "metric_status": "finite",
+          "nonfinite_count": 0,
+          "normalized_mass_drift_abs_max": 8.630597108094662e-07,
+          "normalized_mass_drift_abs_mean": 2.1983781905987598e-08,
+          "normalized_mass_drift_abs_median": 0.0,
+          "prediction_total_variation_mean": 3.923696517944336,
+          "relative_l2_median": 0.03743778541684151,
+          "relative_l2_q90": 0.08283928781747818,
+          "relative_l2_q99": 0.20167367160320282,
+          "samples": 2048,
+          "target_total_variation_mean": 3.8702759742736816,
+          "total_variation_relative_error_max": 4.231750965118408,
+          "total_variation_relative_error_mean": 0.04364180192351341
+        }
+      },
+      "rejection_reasons": [],
+      "selection_status": "eligible",
+      "update": 30000
+    },
+    {
+      "checkpoint": {
+        "path": "/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_32500.ckpt",
+        "sha256": "0abf393dd8ccfa1b760b8d408dba967043cd123ae207374cf9ddab7433d51df5",
+        "size": 27868341
+      },
+      "checks": {
+        "finite_metric_values": true,
+        "h1_l2_no_regression": true,
+        "h1_linf_no_regression": true,
+        "h20_l2_no_regression": true,
+        "h20_linf_no_regression": true,
+        "maximum_normalized_mass_drift_at_most_1e_6": true,
+        "zero_nonfinite_h1_h20": true
+      },
+      "eligible": true,
+      "metrics": {
+        "h1": {
+          "global_linf": 0.8176153302192688,
+          "global_relative_l2": 0.014454795978963375,
+          "metric_status": "finite",
+          "nonfinite_count": 0,
+          "normalized_mass_drift_abs_max": 8.630597108094662e-07,
+          "normalized_mass_drift_abs_mean": 1.9532393480403698e-08,
+          "normalized_mass_drift_abs_median": 0.0,
+          "prediction_total_variation_mean": 4.758820533752441,
+          "relative_l2_median": 0.0067190988920629025,
+          "relative_l2_q90": 0.01646307110786438,
+          "relative_l2_q99": 0.034579046070575714,
+          "samples": 2048,
+          "target_total_variation_mean": 4.742398262023926,
+          "total_variation_relative_error_max": 0.2182263731956482,
+          "total_variation_relative_error_mean": 0.010466458275914192
+        },
+        "h20": {
+          "global_linf": 0.9794870018959045,
+          "global_relative_l2": 0.04270695149898529,
+          "metric_status": "finite",
+          "nonfinite_count": 0,
+          "normalized_mass_drift_abs_max": 8.630597108094662e-07,
+          "normalized_mass_drift_abs_mean": 2.0727412675114465e-08,
+          "normalized_mass_drift_abs_median": 0.0,
+          "prediction_total_variation_mean": 3.9452528953552246,
+          "relative_l2_median": 0.035993702709674835,
+          "relative_l2_q90": 0.07909362018108368,
+          "relative_l2_q99": 0.1939973086118698,
+          "samples": 2048,
+          "target_total_variation_mean": 3.8702759742736816,
+          "total_variation_relative_error_max": 3.4329662322998047,
+          "total_variation_relative_error_mean": 0.04536028206348419
+        }
+      },
+      "rejection_reasons": [],
+      "selection_status": "eligible",
+      "update": 32500
+    },
+    {
+      "checkpoint": {
+        "path": "/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_35000.ckpt",
+        "sha256": "6032e58e6c1810af46dfc97adefd47202eb3cced19a25a1fdaa47891b68ab576",
+        "size": 27868341
+      },
+      "checks": {
+        "finite_metric_values": true,
+        "h1_l2_no_regression": true,
+        "h1_linf_no_regression": true,
+        "h20_l2_no_regression": true,
+        "h20_linf_no_regression": true,
+        "maximum_normalized_mass_drift_at_most_1e_6": true,
+        "zero_nonfinite_h1_h20": true
+      },
+      "eligible": true,
+      "metrics": {
+        "h1": {
+          "global_linf": 0.8119502067565918,
+          "global_relative_l2": 0.014250450767576694,
+          "metric_status": "finite",
+          "nonfinite_count": 0,
+          "normalized_mass_drift_abs_max": 8.630597108094662e-07,
+          "normalized_mass_drift_abs_mean": 1.9366293457778738e-08,
+          "normalized_mass_drift_abs_median": 0.0,
+          "prediction_total_variation_mean": 4.755455493927002,
+          "relative_l2_median": 0.006439719349145889,
+          "relative_l2_q90": 0.015794096514582634,
+          "relative_l2_q99": 0.03453953564167023,
+          "samples": 2048,
+          "target_total_variation_mean": 4.742398262023926,
+          "total_variation_relative_error_max": 0.23870912194252014,
+          "total_variation_relative_error_mean": 0.01024768315255642
+        },
+        "h20": {
+          "global_linf": 0.9884524345397949,
+          "global_relative_l2": 0.0421467125415802,
+          "metric_status": "finite",
+          "nonfinite_count": 0,
+          "normalized_mass_drift_abs_max": 8.630597108094662e-07,
+          "normalized_mass_drift_abs_mean": 2.2608212191244093e-08,
+          "normalized_mass_drift_abs_median": 0.0,
+          "prediction_total_variation_mean": 3.924016237258911,
+          "relative_l2_median": 0.03328276053071022,
+          "relative_l2_q90": 0.07989382743835449,
+          "relative_l2_q99": 0.19567149877548218,
+          "samples": 2048,
+          "target_total_variation_mean": 3.8702759742736816,
+          "total_variation_relative_error_max": 5.170320987701416,
+          "total_variation_relative_error_mean": 0.045286960899829865
+        }
+      },
+      "rejection_reasons": [],
+      "selection_status": "eligible",
+      "update": 35000
+    },
+    {
+      "checkpoint": {
+        "path": "/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_37500.ckpt",
+        "sha256": "58cc13c189c27b37bc56551a08797335e4b71d07e5fed85bd6f5778ef26cf2f6",
+        "size": 27868341
+      },
+      "checks": {
+        "finite_metric_values": true,
+        "h1_l2_no_regression": true,
+        "h1_linf_no_regression": true,
+        "h20_l2_no_regression": true,
+        "h20_linf_no_regression": true,
+        "maximum_normalized_mass_drift_at_most_1e_6": true,
+        "zero_nonfinite_h1_h20": true
+      },
+      "eligible": true,
+      "metrics": {
+        "h1": {
+          "global_linf": 0.8216052055358887,
+          "global_relative_l2": 0.014127095229923725,
+          "metric_status": "finite",
+          "nonfinite_count": 0,
+          "normalized_mass_drift_abs_max": 8.630597108094662e-07,
+          "normalized_mass_drift_abs_mean": 2.0926158583733923e-08,
+          "normalized_mass_drift_abs_median": 0.0,
+          "prediction_total_variation_mean": 4.757798194885254,
+          "relative_l2_median": 0.006089439149945974,
+          "relative_l2_q90": 0.01540207490324974,
+          "relative_l2_q99": 0.034195512533187866,
+          "samples": 2048,
+          "target_total_variation_mean": 4.742398262023926,
+          "total_variation_relative_error_max": 0.2194250077009201,
+          "total_variation_relative_error_mean": 0.009815268218517303
+        },
+        "h20": {
+          "global_linf": 0.9776296019554138,
+          "global_relative_l2": 0.04062072932720184,
+          "metric_status": "finite",
+          "nonfinite_count": 0,
+          "normalized_mass_drift_abs_max": 8.630597108094662e-07,
+          "normalized_mass_drift_abs_mean": 2.175994850972529e-08,
+          "normalized_mass_drift_abs_median": 0.0,
+          "prediction_total_variation_mean": 3.9260342121124268,
+          "relative_l2_median": 0.030402610078454018,
+          "relative_l2_q90": 0.07500538229942322,
+          "relative_l2_q99": 0.19364017248153687,
+          "samples": 2048,
+          "target_total_variation_mean": 3.8702759742736816,
+          "total_variation_relative_error_max": 9.3153657913208,
+          "total_variation_relative_error_mean": 0.046410877257585526
+        }
+      },
+      "rejection_reasons": [],
+      "selection_status": "eligible",
+      "update": 37500
+    },
+    {
+      "checkpoint": {
+        "path": "/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_40000.ckpt",
+        "sha256": "2710bd459a6bcfe86d5cfaad4de19b9bccc28081e46fc7a4f38f03b8913fe7d7",
+        "size": 27868341
+      },
+      "checks": {
+        "finite_metric_values": true,
+        "h1_l2_no_regression": true,
+        "h1_linf_no_regression": true,
+        "h20_l2_no_regression": true,
+        "h20_linf_no_regression": false,
+        "maximum_normalized_mass_drift_at_most_1e_6": true,
+        "zero_nonfinite_h1_h20": true
+      },
+      "eligible": false,
+      "metrics": {
+        "h1": {
+          "global_linf": 0.8131299614906311,
+          "global_relative_l2": 0.014034532941877842,
+          "metric_status": "finite",
+          "nonfinite_count": 0,
+          "normalized_mass_drift_abs_max": 8.630597108094662e-07,
+          "normalized_mass_drift_abs_mean": 2.034156132424414e-08,
+          "normalized_mass_drift_abs_median": 0.0,
+          "prediction_total_variation_mean": 4.757781982421875,
+          "relative_l2_median": 0.006109452340751886,
+          "relative_l2_q90": 0.014891413040459156,
+          "relative_l2_q99": 0.034550800919532776,
+          "samples": 2048,
+          "target_total_variation_mean": 4.742398262023926,
+          "total_variation_relative_error_max": 0.21608076989650726,
+          "total_variation_relative_error_mean": 0.01010867953300476
+        },
+        "h20": {
+          "global_linf": 0.9920916557312012,
+          "global_relative_l2": 0.04192380979657173,
+          "metric_status": "finite",
+          "nonfinite_count": 0,
+          "normalized_mass_drift_abs_max": 8.630597108094662e-07,
+          "normalized_mass_drift_abs_mean": 2.161242562692678e-08,
+          "normalized_mass_drift_abs_median": 0.0,
+          "prediction_total_variation_mean": 3.937927722930908,
+          "relative_l2_median": 0.032659027725458145,
+          "relative_l2_q90": 0.08024202287197113,
+          "relative_l2_q99": 0.18984130024909973,
+          "samples": 2048,
+          "target_total_variation_mean": 3.8702759742736816,
+          "total_variation_relative_error_max": 8.94839096069336,
+          "total_variation_relative_error_mean": 0.04971356317400932
+        }
+      },
+      "rejection_reasons": [
+        "h20_linf_no_regression"
+      ],
+      "selection_status": "rejected",
+      "update": 40000
+    }
+  ],
+  "groups": {
+    "batch_size": 8,
+    "data_order": "sequential grouped cache order",
+    "evaluated_per_checkpoint": 2048,
+    "num_workers": 0,
+    "shuffle": false
+  },
+  "inputs": {
+    "checkpoint_inventory": {
+      "path": "/work/11653/teg883/vista/dg-fluxnet-friday-icon-evaluation-run-20260731-v4/milestone-discovery.json",
+      "sha256": "9799f7162b4cbb5a5efd93e1f0116cf891513a69477119fe048d38a1796d4312",
+      "size": 10213
+    },
+    "checkpoints": [
+      {
+        "file": {
+          "path": "/work/11653/teg883/vista/dg-fluxnet-continuation-5000-run-20260729-v2/job-874128/checkpoints/step_5000.ckpt",
+          "sha256": "08e2b83bfd23ec2087d734937b8796c34cfb55427ecc1519e7e2d25d3e093c55",
+          "size": 27868277
+        },
+        "update": 5000
+      },
+      {
+        "file": {
+          "path": "/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_7500.ckpt",
+          "sha256": "e4822351e5637a9384d6a819d53cdb558cb37def45e07b6136a78ac393f7e7a8",
+          "size": 27868213
+        },
+        "update": 7500
+      },
+      {
+        "file": {
+          "path": "/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_10000.ckpt",
+          "sha256": "46178c62d2708dcbf6fab2a0b687def5a2e63fa4adf0ffa29e09ec068abef9c1",
+          "size": 27868341
+        },
+        "update": 10000
+      },
+      {
+        "file": {
+          "path": "/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_12500.ckpt",
+          "sha256": "f0d8c38208d73506d9af3bf827d5701042af1d5dc5fa510ba68a93baefe4a457",
+          "size": 27868341
+        },
+        "update": 12500
+      },
+      {
+        "file": {
+          "path": "/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_15000.ckpt",
+          "sha256": "ab6979a2b706c99d4b01310cd09ca5a6f7e9831e2d5afd9f3c8a8a5b2c317dc5",
+          "size": 27868341
+        },
+        "update": 15000
+      },
+      {
+        "file": {
+          "path": "/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_17500.ckpt",
+          "sha256": "559fcece0faca1b83f470ed8634b95e3c5bc1ccc968de9aa100d9f0e66de9a25",
+          "size": 27868341
+        },
+        "update": 17500
+      },
+      {
+        "file": {
+          "path": "/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_20000.ckpt",
+          "sha256": "da1ab8d83278e265745d5dc8907171f5a4dc50e38d2c3f61f19ebc7bef8fe997",
+          "size": 27868341
+        },
+        "update": 20000
+      },
+      {
+        "file": {
+          "path": "/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_22500.ckpt",
+          "sha256": "ddd550fa09f3dd888362e4f745344c5cdc5714b9a1ba2dc6e0a4116f52e8836d",
+          "size": 27868341
+        },
+        "update": 22500
+      },
+      {
+        "file": {
+          "path": "/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_25000.ckpt",
+          "sha256": "045e7130fff9ed9588f45f37a4107ab147378c52dab516bb9a1a0a2893d903e5",
+          "size": 27868341
+        },
+        "update": 25000
+      },
+      {
+        "file": {
+          "path": "/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_27500.ckpt",
+          "sha256": "92a6b24859f877307e054fe8702f4e028d44f49c90b15fce1722e1ed986d09fe",
+          "size": 27868341
+        },
+        "update": 27500
+      },
+      {
+        "file": {
+          "path": "/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_30000.ckpt",
+          "sha256": "6433f7ccbd98956794784c970c9659ab1c9c361f415cce05fabc9c0d000c0a62",
+          "size": 27868341
+        },
+        "update": 30000
+      },
+      {
+        "file": {
+          "path": "/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_32500.ckpt",
+          "sha256": "0abf393dd8ccfa1b760b8d408dba967043cd123ae207374cf9ddab7433d51df5",
+          "size": 27868341
+        },
+        "update": 32500
+      },
+      {
+        "file": {
+          "path": "/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_35000.ckpt",
+          "sha256": "6032e58e6c1810af46dfc97adefd47202eb3cced19a25a1fdaa47891b68ab576",
+          "size": 27868341
+        },
+        "update": 35000
+      },
+      {
+        "file": {
+          "path": "/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_37500.ckpt",
+          "sha256": "58cc13c189c27b37bc56551a08797335e4b71d07e5fed85bd6f5778ef26cf2f6",
+          "size": 27868341
+        },
+        "update": 37500
+      },
+      {
+        "file": {
+          "path": "/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_40000.ckpt",
+          "sha256": "2710bd459a6bcfe86d5cfaad4de19b9bccc28081e46fc7a4f38f03b8913fe7d7",
+          "size": 27868341
+        },
+        "update": 40000
+      }
+    ],
+    "evaluation_source_manifest": {
+      "path": "/work/11653/teg883/vista/dg-fluxnet-friday-evaluation-source-20260730-v4/SOURCE_MANIFEST.sha256",
+      "sha256": "b1bc06ca8137a0a9d53a2e9e77dacac43190c916f015001bf570387ea1ab39c5",
+      "size": 45395
+    },
+    "resolved_config": {
+      "path": "/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/.hydra/config.yaml",
+      "sha256": "02e23e128f31dee5c45b08c4b5de48b8f1eef8ecc76bee4be4d984f3a0c28b4f",
+      "size": 4071
+    },
+    "step5000_reference": {
+      "path": "/work/11653/teg883/vista/dg-fluxnet-continuation-5000-run-20260729-v2/job-874128/matched-evaluation/matched-summary.json",
+      "sha256": "7c61e89289d18a85a2806799eee4ab7803cdf52a0706a8fdcc70dd6b4dae3222",
+      "size": 450395
+    },
+    "validation_cache": {
+      "groups": 2048,
+      "manifest": {
+        "path": "/work/11653/teg883/vista/dg-fluxnet-v2-combined-validation-cache-20260726-v1/output/combined-collections/validation/sha256-68c63a3afd15e4dc1369a6741b2d905b6ce92af8cbdc0c8b9e3d3317bfadfa1f/manifest.json",
+        "sha256": "2b0366b02d319e9390ad703fd8e84d205ba232dd3080d1376acf0059522f593f",
+        "size": 335842
+      },
+      "path": "/work/11653/teg883/vista/dg-fluxnet-v2-combined-validation-cache-20260726-v1/output/combined-collections/validation/sha256-68c63a3afd15e4dc1369a6741b2d905b6ce92af8cbdc0c8b9e3d3317bfadfa1f",
+      "split": "validation"
+    }
+  },
+  "inventory_evidence_bindings": {
+    "bindings": {
+      "evaluation source manifest": {
+        "path": "/work/11653/teg883/vista/dg-fluxnet-friday-evaluation-source-20260730-v4/SOURCE_MANIFEST.sha256",
+        "sha256": "b1bc06ca8137a0a9d53a2e9e77dacac43190c916f015001bf570387ea1ab39c5",
+        "size": 45395
+      },
+      "resolved config": {
+        "path": "/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/.hydra/config.yaml",
+        "sha256": "02e23e128f31dee5c45b08c4b5de48b8f1eef8ecc76bee4be4d984f3a0c28b4f",
+        "size": 4071
+      },
+      "step 5,000 reference": {
+        "path": "/work/11653/teg883/vista/dg-fluxnet-continuation-5000-run-20260729-v2/job-874128/matched-evaluation/matched-summary.json",
+        "sha256": "7c61e89289d18a85a2806799eee4ab7803cdf52a0706a8fdcc70dd6b4dae3222",
+        "size": 450395
+      },
+      "validation cache manifest": {
+        "path": "/work/11653/teg883/vista/dg-fluxnet-v2-combined-validation-cache-20260726-v1/output/combined-collections/validation/sha256-68c63a3afd15e4dc1369a6741b2d905b6ce92af8cbdc0c8b9e3d3317bfadfa1f/manifest.json",
+        "sha256": "2b0366b02d319e9390ad703fd8e84d205ba232dd3080d1376acf0059522f593f",
+        "size": 335842
+      }
+    },
+    "inventory_chain": {
+      "scheduler_evidence": {
+        "sacct": {
+          "path": "/work/11653/teg883/vista/dg-fluxnet-friday-icon-evaluation-run-20260731-v4/scheduler/early-sacct.txt",
+          "sha256": "235087b58f15458b5d4ebb46be4b068c2a8571f17f1bd23d4c9833381857e559",
+          "size": 139
+        },
+        "scontrol": {
+          "path": "/work/11653/teg883/vista/dg-fluxnet-friday-icon-evaluation-run-20260731-v4/scheduler/early-scontrol.txt",
+          "sha256": "e7cbc19b304ce7fb323ea1ccae489c74fbc1bdf5635781d0999740708566b8df",
+          "size": 48
+        },
+        "squeue": {
+          "path": "/work/11653/teg883/vista/dg-fluxnet-friday-icon-evaluation-run-20260731-v4/scheduler/early-squeue.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        },
+        "state": "COMPLETED"
+      },
+      "schema": "dg_fluxnet_cutoff_milestone_discovery_v1",
+      "source_verification": {
+        "manifest_entries": 398,
+        "passed": true
+      }
+    },
+    "passed": true,
+    "schema": "dg_fluxnet_inventory_evidence_bindings_v1"
+  },
+  "machine_precision": {
+    "batch_size": 8,
+    "cuda_capability": [
+      9,
+      0
+    ],
+    "cuda_device": "NVIDIA GH200 120GB",
+    "device": "cuda",
+    "model_and_data_dtype": "torch.float32",
+    "num_workers": 0,
+    "schema": "dg_fluxnet_milestone_machine_precision_v1",
+    "shuffle": false,
+    "slurm_job_id": "878946",
+    "slurm_node_list": "c608-051",
+    "slurm_partition": "gh",
+    "torch_cuda_version": "12.8",
+    "torch_version": "2.11.0+cu128"
+  },
+  "numerical_fluxnet_passes": 0,
+  "one_training_seed": true,
+  "publication": {
+    "create_once": true,
+    "lock_path": "/work/11653/teg883/vista/dg-fluxnet-friday-icon-evaluation-run-20260731-v4/.milestone-selection.publish-lock",
+    "method": "atomic O_EXCL sibling lock followed by directory publication"
+  },
+  "ranking_fields": [
+    "h20_global_relative_l2",
+    "h20_global_linf",
+    "update"
+  ],
+  "schema": "dg_fluxnet_milestone_selection_receipt_v1",
+  "selected": {
+    "checkpoint": {
+      "path": "/work/11653/teg883/vista/dg-fluxnet-friday-continuation-run-20260729-v1/job-875539/checkpoints/step_37500.ckpt",
+      "sha256": "58cc13c189c27b37bc56551a08797335e4b71d07e5fed85bd6f5778ef26cf2f6",
+      "size": 27868341
+    },
+    "metrics": {
+      "h1": {
+        "global_linf": 0.8216052055358887,
+        "global_relative_l2": 0.014127095229923725,
+        "metric_status": "finite",
+        "nonfinite_count": 0,
+        "normalized_mass_drift_abs_max": 8.630597108094662e-07,
+        "normalized_mass_drift_abs_mean": 2.0926158583733923e-08,
+        "normalized_mass_drift_abs_median": 0.0,
+        "prediction_total_variation_mean": 4.757798194885254,
+        "relative_l2_median": 0.006089439149945974,
+        "relative_l2_q90": 0.01540207490324974,
+        "relative_l2_q99": 0.034195512533187866,
+        "samples": 2048,
+        "target_total_variation_mean": 4.742398262023926,
+        "total_variation_relative_error_max": 0.2194250077009201,
+        "total_variation_relative_error_mean": 0.009815268218517303
+      },
+      "h20": {
+        "global_linf": 0.9776296019554138,
+        "global_relative_l2": 0.04062072932720184,
+        "metric_status": "finite",
+        "nonfinite_count": 0,
+        "normalized_mass_drift_abs_max": 8.630597108094662e-07,
+        "normalized_mass_drift_abs_mean": 2.175994850972529e-08,
+        "normalized_mass_drift_abs_median": 0.0,
+        "prediction_total_variation_mean": 3.9260342121124268,
+        "relative_l2_median": 0.030402610078454018,
+        "relative_l2_q90": 0.07500538229942322,
+        "relative_l2_q99": 0.19364017248153687,
+        "samples": 2048,
+        "target_total_variation_mean": 3.8702759742736816,
+        "total_variation_relative_error_max": 9.3153657913208,
+        "total_variation_relative_error_mean": 0.046410877257585526
+      }
+    },
+    "update": 37500
+  },
+  "source_files": {
+    "evaluator": {
+      "path": "/work/11653/teg883/vista/dg-fluxnet-friday-evaluation-source-20260730-v4/scripts_flux_context_icon/evaluate_dg_fluxnet_milestones.py",
+      "sha256": "ef69b085562c70af3065f0f353f6449337033c800ee616fe5cee1aac5390fca5",
+      "size": 42127
+    },
+    "selector": {
+      "path": "/work/11653/teg883/vista/dg-fluxnet-friday-evaluation-source-20260730-v4/src/eval/dg_fluxnet_milestone_selection.py",
+      "sha256": "caf93a895680cb122b36857b504684e1822c8562b9f2aa8a250b89b4049379c8",
+      "size": 13518
+    }
+  },
+  "source_manifest_verification": {
+    "manifest": {
+      "path": "/work/11653/teg883/vista/dg-fluxnet-friday-evaluation-source-20260730-v4/SOURCE_MANIFEST.sha256",
+      "sha256": "b1bc06ca8137a0a9d53a2e9e77dacac43190c916f015001bf570387ea1ab39c5",
+      "size": 45395
+    },
+    "manifest_entries": 398,
+    "passed": true,
+    "schema": "dg_fluxnet_evaluation_source_verification_v1",
+    "source_root": "/work/11653/teg883/vista/dg-fluxnet-friday-evaluation-source-20260730-v4"
+  },
+  "step5000_reference_proof": {
+    "absolute_tolerance": 1e-12,
+    "comparisons": [
+      {
+        "candidate_only": 0.0213678739964962,
+        "field": "h1.global_relative_l2",
+        "matched": true,
+        "preserved_job874128": 0.0213678739964962
+      },
+      {
+        "candidate_only": 0.8622341752052307,
+        "field": "h1.global_linf",
+        "matched": true,
+        "preserved_job874128": 0.8622341752052307
+      },
+      {
+        "candidate_only": 0,
+        "field": "h1.nonfinite_count",
+        "matched": true,
+        "preserved_job874128": 0
+      },
+      {
+        "candidate_only": 8.630597108094662e-07,
+        "field": "h1.normalized_mass_drift_abs_max",
+        "matched": true,
+        "preserved_job874128": 8.630597108094662e-07
+      },
+      {
+        "candidate_only": 0.05601958930492401,
+        "field": "h20.global_relative_l2",
+        "matched": true,
+        "preserved_job874128": 0.05601958930492401
+      },
+      {
+        "candidate_only": 0.9900148510932922,
+        "field": "h20.global_linf",
+        "matched": true,
+        "preserved_job874128": 0.9900148510932922
+      },
+      {
+        "candidate_only": 0,
+        "field": "h20.nonfinite_count",
+        "matched": true,
+        "preserved_job874128": 0
+      },
+      {
+        "candidate_only": 8.630597108094662e-07,
+        "field": "h20.normalized_mass_drift_abs_max",
+        "matched": true,
+        "preserved_job874128": 8.630597108094662e-07
+      }
+    ],
+    "passed": true,
+    "schema": "dg_fluxnet_step5000_metric_match_v1"
+  },
+  "teacher_passes": 0,
+  "thresholds": {
+    "maximum_normalized_mass_drift": 1e-06,
+    "metric_nonregression_reference": "step 5,000",
+    "nonfinite_count": 0
+  },
+  "training_seed": 1307,
+  "used_step5000_fallback": false
+}

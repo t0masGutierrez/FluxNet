@@ -1,0 +1,28 @@
+{
+  "schema_version": "icon-repro-checkpoint-lock-v1",
+  "public_name": "ICON",
+  "internal_id": "icon",
+  "source_commit": "f8404c0edca7cca7f767c3562ade51d66b222d5d",
+  "training_run_source_commit": "28e53f8bcbbc19f446074ef2a5649731ecf6322b",
+  "checkpoint_step": 1000000,
+  "parameter_count": 2681473,
+  "archive_recorded_parameter_count": 2693073,
+  "parameter_count_note": "The exact checkpoint and pinned source load with 2,681,473 trainable parameters. An older acceptance note records 2,693,073.",
+  "checkpoints": {
+    "0": {
+      "path": "weights/seed-0-step_1000000.pt",
+      "sha256": "b592413d90d9d5ded6f4667f80cee365e6e850ea0ca93d3245474766160df44a",
+      "run_id": "track_a/icon/seed-0"
+    },
+    "1": {
+      "path": "weights/seed-1-step_1000000.pt",
+      "sha256": "98d557db718c56d2e8f5c3ca0b7ddabd3086f739bf7f694f7862c1b97718d442",
+      "run_id": "track_a/icon/seed-1"
+    },
+    "2": {
+      "path": "weights/seed-2-step_1000000.pt",
+      "sha256": "f27c43d896620622de5aaf4fb631493870e5d6972bbe1e37aab7413212c2cfb0",
+      "run_id": "track_a/icon/seed-2"
+    }
+  }
+}

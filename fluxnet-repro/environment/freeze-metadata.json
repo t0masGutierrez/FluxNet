@@ -1,0 +1,26 @@
+{
+  "artifact_id": "focused-environments-v4",
+  "files": [
+    {
+      "path": "results/fair_benchmark/focused_seal_v4/freeze_artifacts/environment/fluxnet-gpu-pip-freeze.txt",
+      "sha256": "d8dba6f6eb216f87d6405d0fae0968a4e3a64463f58ac47600e840d123711716",
+      "size_bytes": 4199
+    },
+    {
+      "path": "results/fair_benchmark/focused_seal_v4/freeze_artifacts/environment/hyperfluxno-gpu-pip-freeze.txt",
+      "sha256": "c7abf9989c6420fbb006d3d47b3614e9b644e1990fc755a443e9eeb020e04d70",
+      "size_bytes": 2867
+    },
+    {
+      "path": "results/fair_benchmark/focused_seal_v4/freeze_artifacts/environment/vista-runtime.txt",
+      "sha256": "893a427a8ab76177b71f84b97db2b2718a2058972f4a7a81281eaf28e7d20b43",
+      "size_bytes": 338
+    }
+  ],
+  "metadata": {
+    "fluxnet_python": "/work/11653/teg883/vista/icon/.venv-vista/bin/python",
+    "hardware": "Vista H200",
+    "hyperfluxno_and_pyclaw_python": "/work/11653/teg883/vista/phase6-icon-model-v1/.venv-hfluxno-lock-092/bin/python"
+  },
+  "schema_version": "fair-focused-file-artifact-v1"
+}

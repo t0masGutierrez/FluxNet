@@ -1,0 +1,55 @@
+{
+  "schema_version": "fluxnet-public-inference-v1",
+  "purpose": "Run and verify the fixed FluxNet inference example",
+  "scope": "inference_only",
+  "python": ">=3.11",
+  "model": {
+    "public_name": "FluxNet",
+    "training_seed": 1307,
+    "checkpoint_update": 37500,
+    "parameter_count": 2313485,
+    "configuration": {
+      "dt_over_dx": 0.5,
+      "fit_degree": 3,
+      "speed_bound": 20.0,
+      "normalization_epsilon": 0.00001,
+      "evidence_ridge": 0.0001,
+      "output_scaling": "none",
+      "dilations": [1, 2, 4, 8],
+      "width": 168
+    },
+    "checkpoint": {
+      "path": "weights/step_37500.ckpt",
+      "size_bytes": 27868341,
+      "sha256": "58cc13c189c27b37bc56551a08797335e4b71d07e5fed85bd6f5778ef26cf2f6"
+    }
+  },
+  "source": {
+    "root": "../src",
+    "files": {
+      "src/chebyshev.py": "f3a1a7f97abd71bdc057916b71c9e38614a2285c01c67b005a1c67f13ce6ccde",
+      "src/coefficients.py": "8a41faaa573912c76c44289acef5e097994ba3fea12cd473821e32f8a0db63ee",
+      "src/flux_inference.py": "493a31492d91b0320391020baddfd0998c353844eeddeaac275f01302f3fef79",
+      "src/fluxnet.py": "12fb6bdd4455ebc9fc3a334d63a64f8a04c09649409d8fdca95cf39795e25b37",
+      "src/prompt.py": "530d743abdfa919e1caa795ddf88848baedd38540e21a6ae74e76a32e231de88",
+      "src/validation.py": "311c420bb8bbbed476753c4f55d4c19063e47daa85350cf1ee6e14c6e1ea501f"
+    }
+  },
+  "example": {
+    "runner": "run_example.py",
+    "truth": "truth/task-011-chebyshev_degree_4_7-grf/saved.h5",
+    "truth_sha256": "ec748e22825ff42b89f839dbf94b252aca1a62ec122a8d93c52d9a377b7386c5",
+    "expected": "example/forecast-example.npz",
+    "expected_sha256": "dc1eca53afba81c85fb43d6b9485e65173933e53694dd35050ca3153389dc95e",
+    "context_length": 20,
+    "horizon": 20,
+    "dt": 0.005,
+    "dx": 0.01
+  },
+  "validation": {
+    "strict_checkpoint_load": true,
+    "reference_max_abs_diff": 0.0,
+    "prediction_max_abs_diff": 1.1920929e-06,
+    "tolerance": 2.0e-05
+  }
+}

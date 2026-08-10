@@ -1,0 +1,12 @@
+# Target-compatible copy of the poster model settings.
+# The original resolved config is kept in resolved-original.yaml.
+
+target: fluxnet.FluxNet
+dt_over_dx: 0.5
+fit_degree: 3
+speed_bound: 20.0
+normalization_epsilon: 1.0e-5
+evidence_ridge: 1.0e-4
+output_scaling: none
+dilations: [1, 2, 4, 8]
+width: 168

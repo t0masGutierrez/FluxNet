@@ -1,0 +1,15 @@
+# Python and local tools
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+.DS_Store
+
+# The runners create these files. They are not inputs to the checks.
+fluxnet-repro/example/reproduced-*.npz
+icon-repro/example/reproduced-*.npz

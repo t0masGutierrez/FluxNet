@@ -1,0 +1,12 @@
+{
+  "max_cflmax": 0.28815853044814516,
+  "raw_file_bytes": 2162112145,
+  "raw_then_downsample_checked_shards": 256,
+  "saved_file_bytes": 230628686,
+  "schema_version": "fair-focused-truth-audit-v1",
+  "shard_count": 256,
+  "status": "passed",
+  "suite_hash": "7a04b0f5db4edd61e168a9ef27122c3b697700553f77602a9500f392e9879743",
+  "suite_seed": "ea6c308fb80f01b41d5e62af06a96414f583b4697e6c3fb32909719bf8694bc4",
+  "trajectory_count": 4096
+}

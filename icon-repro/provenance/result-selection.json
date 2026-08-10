@@ -1,0 +1,18 @@
+{
+  "schema_version": "icon-repro-result-selection-v1",
+  "poster_protocol": "primary_20",
+  "poster_summary": "example/quantitative-data.json",
+  "selected_task_ids": {
+    "seed-0": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+    "seed-1": [32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47],
+    "seed-2": [64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79]
+  },
+  "task_files": [
+    "manifest.json",
+    "metrics.csv.gz",
+    "step_errors.csv.gz"
+  ],
+  "metric_rows_per_task": 15360,
+  "step_rows_per_task": 307200,
+  "omitted_tasks": "secondary step-stratum tasks; they are not used by the poster curves"
+}
