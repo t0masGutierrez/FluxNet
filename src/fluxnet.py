@@ -30,7 +30,6 @@ import math
 from dataclasses import dataclass
 from typing import cast
 
-import einops
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -43,6 +42,8 @@ from prompt import (
     build_flux_evidence_tokens,
     compute_prompt_normalization,
 )
+from validation import _require_finite
+from validation import _validate_positive_finite_scalar as _validate_positive_scalar
 
 # These sizes are part of the checkpoint's input and parameter layout.
 _MAX_FLUX_DEGREE = 8
@@ -388,14 +389,8 @@ class _FluxNetPromptEncoder(nn.Module):
         )
         # Attention reads one long list of prompt rows instead of treating
         # each example as a separate sequence.
-        flat_tokens = einops.rearrange(
-            tokens,
-            "batch transitions cells features -> batch (transitions cells) features",
-        )
-        flat_mask = einops.rearrange(
-            token_mask,
-            "batch transitions cells -> batch (transitions cells)",
-        )
+        flat_tokens = tokens.flatten(1, 2)
+        flat_mask = token_mask.flatten(1, 2)
         encoded = self.token_mlp(flat_tokens)
         queries = self.pooling_queries[None].expand(tokens.shape[0], -1, -1)
         # Padding masks are true where a row is unavailable, which is why the
@@ -407,12 +402,7 @@ class _FluxNetPromptEncoder(nn.Module):
             key_padding_mask=~flat_mask,
             need_weights=False,
         )
-        context = self.context_compression(
-            einops.rearrange(
-                pooled,
-                "batch queries hidden -> batch (queries hidden)",
-            )
-        )
+        context = self.context_compression(pooled.flatten(1))
         return FluxNetProgram(
             center=center,
             scale=scale,
@@ -1221,47 +1211,3 @@ def _validate_state_and_program(
     if state.dtype != program.center.dtype or state.device != program.center.device:
         raise ValueError("state and program must share one dtype and device")
     _require_finite(state, name="state")
-
-
-def _validate_positive_scalar(value: float, *, name: str) -> None:
-    """
-    Require a named model setting to be positive and finite.
-
-    Parameters
-    ----------
-    value : float
-        Model setting to check.
-    name : str
-        Name used in the error message.
-
-    Returns
-    -------
-    None
-        This function returns nothing. It raises an error when ``value`` is
-        not finite and positive.
-    """
-    if not math.isfinite(value) or value <= 0.0:
-        raise ValueError(f"{name} must be finite and positive, got {value}")
-
-
-def _require_finite(value: torch.Tensor, *, name: str) -> None:
-    """
-    Reject invalid tensor values during normal eager execution.
-
-    Parameters
-    ----------
-    value : torch.Tensor
-        Tensor to check.
-    name : str
-        Name used in the error message.
-
-    Returns
-    -------
-    None
-        This function returns nothing. It raises an error when ``value`` has
-        an invalid number.
-    """
-    if torch.compiler.is_compiling():
-        return
-    if not torch.isfinite(value).all().item():
-        raise ValueError(f"{name} must contain only finite values")

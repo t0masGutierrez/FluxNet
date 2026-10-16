@@ -1,0 +1,88 @@
+{
+  "before": [
+    {
+      "python": "3.12.12",
+      "machine": "arm64",
+      "torch": "2.13.0",
+      "threads": 4,
+      "device": "cpu",
+      "polynomial_seconds": 0.0018776244833134115,
+      "rollout_seconds": 0.1000089370063506,
+      "peak_rss_bytes": 287375360
+    },
+    {
+      "python": "3.12.12",
+      "machine": "arm64",
+      "torch": "2.13.0",
+      "threads": 4,
+      "device": "cpu",
+      "polynomial_seconds": 0.0006571249687112868,
+      "rollout_seconds": 0.06742600002326071,
+      "peak_rss_bytes": 318275584
+    },
+    {
+      "python": "3.12.12",
+      "machine": "arm64",
+      "torch": "2.13.0",
+      "threads": 4,
+      "device": "cpu",
+      "polynomial_seconds": 0.0006773544591851532,
+      "rollout_seconds": 0.0691979585099034,
+      "peak_rss_bytes": 317685760
+    }
+  ],
+  "after": [
+    {
+      "python": "3.12.12",
+      "machine": "arm64",
+      "torch": "2.13.0",
+      "threads": 4,
+      "device": "cpu",
+      "polynomial_seconds": 0.0002346250112168491,
+      "rollout_seconds": 0.07811268756631762,
+      "peak_rss_bytes": 318029824
+    },
+    {
+      "python": "3.12.12",
+      "machine": "arm64",
+      "torch": "2.13.0",
+      "threads": 4,
+      "device": "cpu",
+      "polynomial_seconds": 0.0002382500097155571,
+      "rollout_seconds": 0.05883100046776235,
+      "peak_rss_bytes": 317767680
+    },
+    {
+      "python": "3.12.12",
+      "machine": "arm64",
+      "torch": "2.13.0",
+      "threads": 4,
+      "device": "cpu",
+      "polynomial_seconds": 0.00023243750911206007,
+      "rollout_seconds": 0.05880368751240894,
+      "peak_rss_bytes": 317784064
+    }
+  ],
+  "preliminary_before": {
+    "python": "3.12.12",
+    "machine": "arm64",
+    "torch": "2.13.0",
+    "threads": 4,
+    "polynomial_seconds": 0.0007762295426800847,
+    "rollout_seconds": 0.0685904790298082,
+    "peak_rss_bytes": 286687232
+  },
+  "preliminary_after": {
+    "python": "3.12.12",
+    "machine": "arm64",
+    "torch": "2.13.0",
+    "threads": 4,
+    "device": "cpu",
+    "polynomial_seconds": 0.0002858119551092386,
+    "rollout_seconds": 0.1342308545135893,
+    "peak_rss_bytes": 234831872
+  },
+  "baseline_commit": "844caf9",
+  "hardware": "Apple M1",
+  "notes": "Three sequential before/after pairs. Preliminary measurements were separated by the large ICON checks; use the paired measurements for comparison. Each value is a median after three warm-up calls. Memory includes model loading. No training was run."
+}

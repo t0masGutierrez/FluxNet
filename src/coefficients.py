@@ -225,6 +225,9 @@ def fit_flux_coefficients_from_evidence(
         name="normalized flux evidence",
     )
 
+    # Mask before arithmetic: zero times NaN or infinity is still invalid.
+    normalized_midpoint = torch.where(evidence_mask, normalized_midpoint, 0.0)
+    normalized_flux_evidence = torch.where(evidence_mask, normalized_flux_evidence, 0.0)
     values, _ = extended_chebyshev_polynomials(normalized_midpoint, degree)
     zero_values, _ = extended_chebyshev_polynomials(
         torch.zeros_like(normalized_midpoint),
@@ -306,25 +309,9 @@ def extended_chebyshev_polynomials(
     clamped = x.clamp(min=-1.0, max=1.0)
     values = chebyshev_polynomials(clamped, degree)
     derivatives = chebyshev_polynomial_derivatives(clamped, degree)
-    right_values = chebyshev_polynomials(torch.ones_like(x), degree)
-    right_derivatives = chebyshev_polynomial_derivatives(torch.ones_like(x), degree)
-    left_values = chebyshev_polynomials(-torch.ones_like(x), degree)
-    left_derivatives = chebyshev_polynomial_derivatives(-torch.ones_like(x), degree)
-
-    # Continue each endpoint with a straight line rather than allowing a
-    # high-degree polynomial to grow without control outside the prompt range.
-    values = torch.where(
-        (x > 1.0)[..., None],
-        right_values + right_derivatives * (x - 1.0)[..., None],
-        values,
-    )
-    derivatives = torch.where((x > 1.0)[..., None], right_derivatives, derivatives)
-    values = torch.where(
-        (x < -1.0)[..., None],
-        left_values + left_derivatives * (x + 1.0)[..., None],
-        values,
-    )
-    derivatives = torch.where((x < -1.0)[..., None], left_derivatives, derivatives)
+    # Outside the interval, the clamped value is the nearest endpoint.
+    # Its slope already gives the required straight-line continuation.
+    values = values + derivatives * (x - clamped)[..., None]
     _require_finite(values, name="extended Chebyshev values")
     _require_finite(derivatives, name="extended Chebyshev derivatives")
     return values, derivatives

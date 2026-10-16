@@ -80,9 +80,7 @@ def load_fixed_example(
         )
         x = np.asarray(source["x"][:], dtype=np.float64)
         time = np.asarray(
-            source["t"][
-                WINDOW_START + CONTEXT_LENGTH : WINDOW_START + CONTEXT_LENGTH + HORIZON
-            ],
+            source["t"][WINDOW_START + CONTEXT_LENGTH : WINDOW_START + CONTEXT_LENGTH + HORIZON],
             dtype=np.float64,
         )
 
@@ -134,9 +132,7 @@ def load_model(seed: int, device: torch.device) -> torch.nn.Module:
     checkpoint_path = BUNDLE / f"weights/seed-{seed}-step_1000000.pt"
     actual_sha256 = sha256(checkpoint_path)
     if actual_sha256 != CHECKPOINT_SHA256[seed]:
-        raise ValueError(
-            f"seed {seed} checkpoint fingerprint does not match: {actual_sha256}"
-        )
+        raise ValueError(f"seed {seed} checkpoint fingerprint does not match: {actual_sha256}")
 
     checkpoint = torch.load(
         checkpoint_path,
@@ -223,25 +219,24 @@ def run_seed(
     atol: float,
 ) -> None:
     """Reproduce and check one seed's fixed forecast."""
+    if not np.isfinite(atol) or atol < 0:
+        raise ValueError("atol must be finite and nonnegative")
     truth_path = BUNDLE / "truth/task-011-chebyshev_degree_4_7-grf/saved.h5"
     observed, reference, x, time, dt, dx = load_fixed_example(truth_path)
     model = load_model(seed, device)
     prediction = rollout(model, observed, x, device)
 
-    expected_path = output_dir / f"seed-{seed}-forecast-example.npz"
+    expected_path = BUNDLE / "example" / f"seed-{seed}-forecast-example.npz"
     output_path = output_dir / f"reproduced-seed-{seed}-forecast.npz"
     save_result(output_path, prediction, reference, x, time)
-    if expected_path.is_file():
-        expected = np.load(expected_path)
-        reference_diff = float(np.max(np.abs(reference - expected["reference"])))
-        prediction_diff = float(np.max(np.abs(prediction - expected["prediction"])))
-        if reference_diff > atol or prediction_diff > atol:
-            raise ValueError(
-                f"seed {seed} differs from the stored forecast: "
-                f"reference={reference_diff}, prediction={prediction_diff}, atol={atol}"
-            )
-        print(f"seed={seed} reference_max_abs_diff={reference_diff:.8g}")
-        print(f"seed={seed} prediction_max_abs_diff={prediction_diff:.8g}")
+    with np.load(expected_path) as expected:
+        for name, actual in (("reference", reference), ("prediction", prediction)):
+            saved = expected[name]
+            if not np.isfinite(actual).all() or not np.isfinite(saved).all():
+                raise ValueError(f"{name} must contain only finite values")
+            np.testing.assert_allclose(actual, saved, rtol=0, atol=atol)
+            difference = float(np.max(np.abs(actual - saved)))
+            print(f"seed={seed} {name}_max_abs_diff={difference:.8g}")
 
     print(f"seed={seed} checkpoint_sha256={CHECKPOINT_SHA256[seed]}")
     print(f"seed={seed} checkpoint_update={CHECKPOINT_STEP}")

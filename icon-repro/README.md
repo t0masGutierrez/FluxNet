@@ -46,3 +46,10 @@ The bundle is organized as follows:
 The old result files carry the label `post_unseal_exploratory` in their
 records. We keep that label because it describes how those results were made.
 They are comparison records, not a new final test.
+
+For the saved dependency versions, use `uv sync --locked --extra comparison`.
+The lock file does not replace the saved Vista environment records.
+
+Use `--output-dir` to store new forecasts in another folder. The check always
+reads saved answers from this bundle's `example/` folder, and fails if a saved
+answer is missing.
