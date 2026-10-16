@@ -23,6 +23,13 @@ from __future__ import annotations
 
 import torch
 
+from validation import (
+    _require_finite,
+    _require_same_dtype_and_device,
+    _validate_dt_over_dx,
+    _validate_state_tensor,
+)
+
 
 def infer_periodic_interface_flux(
     cond: torch.Tensor,
@@ -52,12 +59,14 @@ def infer_periodic_interface_flux(
         Centered interface-flux values with the same shape as ``cond``. The
         spatial mean is zero for every sample and channel.
     """
+    _validate_state_tensor(cond, name="cond", minimum_dimensions=3)
+    _validate_state_tensor(qoi, name="qoi", minimum_dimensions=3)
     if cond.shape != qoi.shape:
         raise ValueError(f"cond and qoi must have the same shape, got {tuple(cond.shape)} and {tuple(qoi.shape)}")
-    if cond.ndim < 3:
-        raise ValueError(f"cond and qoi must have shape (..., cells, channels), got {tuple(cond.shape)}")
-    if dt_over_dx <= 0.0:
-        raise ValueError(f"dt_over_dx must be positive, got {dt_over_dx}")
+    _require_same_dtype_and_device(cond, qoi, names=("cond", "qoi"))
+    _validate_dt_over_dx(dt_over_dx)
+    _require_finite(cond, name="cond")
+    _require_finite(qoi, name="qoi")
 
     # The change in each cell gives the difference between its two boundary
     # fluxes.  Remove the spatial mean first because a periodic update cannot

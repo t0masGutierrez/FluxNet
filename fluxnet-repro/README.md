@@ -44,3 +44,14 @@ The main files are:
 
 The test writes `example/reproduced-forecast-example.npz`. Git ignores this
 new file because the test can create it again.
+
+For the saved dependency versions, use `uv sync --locked` and
+`uv run --locked python fluxnet-repro/run_example.py`. The lock file records
+the local package setup. It does not replace the saved training environment.
+
+Run the small code checks with `python -m unittest discover -v` after installing
+`.[comparison]`. Run `python fluxnet-repro/benchmark_runtime.py` to measure the
+fixed CPU forecast. Build package files with `uv build`.
+
+The saved answer must be present. Use `--output` to choose a separate output
+file. The script rejects an output path that names one of its input files.

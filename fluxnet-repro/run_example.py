@@ -343,6 +343,15 @@ def main() -> int:
         Zero when the fixed example matches the saved poster result.
     """
     args = build_parser().parse_args()
+    if not np.isfinite(args.atol) or args.atol < 0:
+        raise ValueError("atol must be finite and nonnegative")
+    if not str(args.output).endswith(".npz"):
+        args.output = Path(str(args.output) + ".npz")
+    protected = (args.expected, args.truth, args.checkpoint, BUNDLE / "example/forecast-example.npz")
+    if args.output.resolve() in {path.resolve() for path in protected}:
+        raise ValueError("output must be separate from saved input files")
+    if not args.expected.is_file():
+        raise FileNotFoundError(args.expected)
     torch.set_float32_matmul_precision("highest")
     torch.manual_seed(TRAINING_SEED)
     device = torch.device(args.device)
@@ -352,20 +361,15 @@ def main() -> int:
     prediction = rollout(model, observed, device)
     save_result(args.output, prediction, reference, x, time)
 
-    if args.expected.is_file():
-        # A stored expected file is optional for custom runs, but the bundled
-        # poster run always has one and uses it as a final identity check.
-        expected = np.load(args.expected)
-        reference_diff = float(np.max(np.abs(reference - expected["reference"])))
-        prediction_diff = float(np.max(np.abs(prediction - expected["prediction"])))
-        if reference_diff > args.atol or prediction_diff > args.atol:
-            raise ValueError(
-                "reproduced example differs from the stored poster example: "
-                f"reference={reference_diff}, prediction={prediction_diff}, "
-                f"atol={args.atol}"
-            )
-        print(f"reference_max_abs_diff={reference_diff:.8g}")
-        print(f"prediction_max_abs_diff={prediction_diff:.8g}")
+    with np.load(args.expected) as expected:
+        # Check shape and finite values as well as the original absolute limit.
+        for name, actual in (("reference", reference), ("prediction", prediction)):
+            saved = expected[name]
+            if not np.isfinite(actual).all() or not np.isfinite(saved).all():
+                raise ValueError(f"{name} must contain only finite values")
+            np.testing.assert_allclose(actual, saved, rtol=0, atol=args.atol)
+            difference = float(np.max(np.abs(actual - saved)))
+            print(f"{name}_max_abs_diff={difference:.8g}")
 
     print(f"checkpoint_sha256={sha256(args.checkpoint)}")
     print(f"checkpoint_update={CHECKPOINT_UPDATE}")

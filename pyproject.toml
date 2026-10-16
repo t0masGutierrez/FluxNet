@@ -11,7 +11,6 @@ requires-python = ">=3.11"
 license = "Apache-2.0"
 license-files = ["LICENSE"]
 dependencies = [
-    "einops>=0.8.1",
     "h5py>=3.13.0",
     "numpy>=2.1.0",
     "torch>=2.6.0",
